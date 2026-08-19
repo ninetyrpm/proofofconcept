@@ -64,6 +64,39 @@ const cocktails = [
     observations:'Primary technical problem is obtaining and dosing sardine oil without either wasting expensive conservas or turning the service environment into a fish market.',
     allergens:['FISH'], safety:'Contains fish. Oil sourcing, storage, oxidation, sanitation, and dosage require explicit protocol before any physical test or service.',
     revisions:[['0.1','11 Aug 2026','Initial gin / vermouth / sardine oil / orange bitters build proposed.']]
+  },
+  {
+    id:'POC-006', slug:'pickleball', name:'Pickleball', status:'Cursed Imagination', revision:'0.1', class:'Hostile ritual', lastTested:'—',
+    summary:'Malört, pickle brine, then Malört again: a three-act service sequence based on the premise that nobody wants it.',
+    shorthand:'Malört · pickle brine · Malört',
+    intent:'Turn an aggressively undesirable ingredient pairing into a concise social ritual whose structure is the joke: bitter, brine, bitter, with no attempt to disguise what is happening.',
+    ingredients:[['1 shot','Malört'],['1 shot','pickle brine'],['1 shot','Malört']],
+    method:'Concept only. Serve as three sequential shots: Malört, pickle-brine chaser, then a second Malört shot.',
+    observations:'No physical test is documented. The concept currently lives or dies on pacing, shot size, and whether the brine provides enough relief to make the return to Malört funny rather than merely repetitive.',
+    allergens:[], safety:'Check the ingredient statement for the specific pickle brine used and disclose any declared allergens. Use food-safe brine stored according to the source product instructions; do not treat communal or reused service brine as automatically safe.',
+    revisions:[['0.1','13 Aug 2026','Three-part Malört / pickle brine / Malört service ritual proposed. Name established around the premise that no one wants it.']]
+  },
+  {
+    id:'POC-007', slug:'cow-piss', name:'Cow Piss', status:'Cursed Imagination', revision:'0.1', class:'Cultured highball-ish', lastTested:'—',
+    summary:'A yogurt-and-lime rum drink whose name commits far more aggressively to the Calpico lineage than the recipe presently deserves.',
+    shorthand:'Fat-washed white rum · Midori · lime · yogurt',
+    intent:'Build a bright, cultured-dairy cocktail that makes the Calpico reference legible while remaining drinkable enough that the name feels like the most alarming part.',
+    ingredients:[['TBD','fat-washed white rum'],['TBD','Midori'],['TBD','lime juice'],['TBD','yogurt']],
+    method:'Concept formulation only. Final proportions, fat-wash medium, dilution, and whether the yogurt is incorporated, clarified, or used texturally remain unresolved.',
+    observations:'The etymology is doing useful conceptual work, but the drink itself still needs a technical architecture. The main development problem is integrating dairy tang and texture without producing a heavy or unstable mixture.',
+    allergens:['MILK'], safety:'Contains milk through yogurt. The fat used for the rum wash must also be identified and disclosed before service. Dairy handling, refrigeration, cross-contamination, and final holding time require a written protocol before testing for others.',
+    revisions:[['0.1','11 Aug 2026','Fat-washed white rum / Midori / lime / yogurt proposed. Name tied to the original naming lineage of Calpico.']]
+  },
+  {
+    id:'POC-008', slug:'nomad', name:"Noma'd", status:'Cursed Imagination', revision:'0.1', class:'Fermentation cosplay', lastTested:'—',
+    summary:'Funky rum, lacto-fermented fruit, and exactly enough truffle oil to make everyone nervous about the tweezers.',
+    shorthand:'Funky rum · lacto-fermented berries · simple · truffle oil',
+    intent:'Use fermentation and a nearly homeopathic dose of truffle oil to create a drink that gestures toward high-concept fermentation culture without becoming a parody that tastes primarily of truffle.',
+    ingredients:[['2 oz','funky rum'],['0.5 oz','simple syrup'],['TBD','lacto-fermented berries'],['1 tiny drop','truffle oil']],
+    method:'Concept formulation only. Final berry quantity, fermentation protocol, acid balance, and presentation remain unresolved.',
+    observations:'The concept depends on restraint. The fermented berries need to provide acidity, fruit, and funk; the truffle oil should register as an unsettling aromatic detail rather than the dominant flavor.',
+    allergens:[], safety:'The lacto-fermentation protocol is not yet documented, so this build should not be reproduced for service as written. Any fermented fruit must be produced with a validated food-safe method, documented handling and storage, and clear discard criteria. Check the truffle-oil ingredient statement for carrier oils or declared allergens.',
+    revisions:[['0.1','11 Aug 2026','Funky rum / simple / lacto-fermented berries / one tiny drop of truffle oil proposed.']]
   }
 ];
 
