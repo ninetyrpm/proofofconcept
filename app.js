@@ -67,7 +67,7 @@ const cocktails = [
   },
   {
     id:'POC-006', slug:'pickleball', name:'Pickleball', status:'Cursed Imagination', revision:'0.1', class:'Hostile ritual', lastTested:'—',
-    summary:'Malört, pickle brine, then Malört again: a three-act service sequence based on the premise that nobody wants it.',
+    summary:'Malört, pickle brine, then Malört again: a three-act service sequence based on the premise that nobody actually fucking wants it.',
     shorthand:'Malört · pickle brine · Malört',
     intent:'Turn an aggressively undesirable ingredient pairing into a concise social ritual whose structure is the joke: bitter, brine, bitter, with no attempt to disguise what is happening.',
     ingredients:[['1 shot','Malört'],['1 shot','pickle brine'],['1 shot','Malört']],
