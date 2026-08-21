@@ -1,6 +1,8 @@
-# PROOF OF CONCEPT — Website Prototype
+# PROOF OF CONCEPT — Website Prototype 0.2
 
 Zero-dependency static prototype for the PROOF OF CONCEPT experimental beverage archive.
+
+Prototype 0.2 adds the **CURSE INDEX** as a separate reference database for questionable materials. Catalog presence, editorial scores, and tags do not create cocktail-development evidence.
 
 ## Local preview
 
@@ -10,9 +12,9 @@ From this directory:
 python3 -m http.server 4173
 ```
 
-Open `http://localhost:4173`.
+Open `http://localhost:4173` and navigate through the interface.
 
-Because this is a client-side SPA, direct route refreshes such as `/cocktails/gym-sock` require a fallback rewrite. `vercel.json` provides that on Vercel. Python's simple HTTP server does not; navigate through the prototype UI when previewing locally.
+Because this is a client-side SPA, direct route refreshes such as `/cocktails/gym-sock` or `/curses/fish-sauce` require a fallback rewrite. `vercel.json` provides that on Vercel. Python's simple HTTP server does not.
 
 ## Deploy to Vercel
 
@@ -23,20 +25,26 @@ Because this is a client-side SPA, direct route refreshes such as `/cocktails/gy
 5. Output directory: leave blank / project root.
 6. Deploy.
 
-No runtime dependencies or environment variables are required for this prototype.
+No runtime dependencies, external database, or environment variables are required for this prototype.
 
 ## Prototype routes
 
 - `/` — Research Index
-- `/cocktails/gym-sock`
-- `/cocktails/fucking-merlot`
-- `/cocktails/latke`
-- `/cocktails/pea-soup`
-- `/cocktails/martinned`
-- `/status`
-- `/panel`
-- `/graveyard`
-- `/submit`
+- `/cocktails/[slug]` — cocktail specimen records
+- `/curses` — Curse Index browser
+- `/curses/[slug]` — Curse Index material record
+- `/status` — development status protocol
+- `/panel` — rolling peer-review panel
+- `/graveyard` — terminated cocktail projects/branches
+- `/submit` — guest cocktail submission prototype
+
+## Curse Index data
+
+`data/curses.json` is the version-controlled runtime dataset for the zero-dependency prototype. It currently contains the 154 LIQUID seed records defined in the approved Curse Index implementation specification.
+
+Seed records intentionally contain only stable identity and Tier-1/Tier-2 classification data. Description, tags, scores, and safety fields remain empty until real editorial metadata is supplied.
+
+The intended canonical Curse Index data shape is documented in `POC_CURSE_SCHEMA.yaml`.
 
 ## Deliberately not implemented yet
 
@@ -44,7 +52,7 @@ No runtime dependencies or environment variables are required for this prototype
 - Real guest submission transport
 - Authentication / admin editing
 - Real peer reviewer identities or voting
-- Search / rich taxonomy
+- Complete Curse Index descriptions/scores/safety research
+- Automatic backlinking of historical cocktail ingredients to Curse Index IDs
+- Community ratings or AI pairing recommendations
 - Photography pipeline
-
-The current data is embedded in `app.js` to make the prototype portable and directly deployable.

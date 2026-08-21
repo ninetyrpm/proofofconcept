@@ -1,0 +1,6483 @@
+{
+  "schema_version": "1.0",
+  "index": {
+    "title": "CURSE INDEX",
+    "curse_types": [
+      {
+        "id": "liquid",
+        "label": "LIQUID",
+        "record_count": 154
+      }
+    ]
+  },
+  "records": [
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-001",
+        "name": "Fish sauce",
+        "slug": "fish-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-002",
+        "name": "Worcestershire sauce",
+        "slug": "worcestershire-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-003",
+        "name": "Maggi seasoning",
+        "slug": "maggi-seasoning"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-004",
+        "name": "Soy sauce",
+        "slug": "soy-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-005",
+        "name": "Tamari",
+        "slug": "tamari"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-006",
+        "name": "Ponzu",
+        "slug": "ponzu"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-007",
+        "name": "Oyster sauce",
+        "slug": "oyster-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-008",
+        "name": "Banana ketchup",
+        "slug": "banana-ketchup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-009",
+        "name": "Tonkatsu sauce",
+        "slug": "tonkatsu-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-010",
+        "name": "HP sauce",
+        "slug": "hp-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-011",
+        "name": "Steak sauce",
+        "slug": "steak-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-012",
+        "name": "Hot sauce",
+        "slug": "hot-sauce"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-013",
+        "name": "Mustard wash",
+        "slug": "mustard-wash"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-014",
+        "name": "Horseradish liquid",
+        "slug": "horseradish-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Condiment / seasoning",
+        "material_type_slug": "condiment-seasoning"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-015",
+        "name": "Black vinegar",
+        "slug": "black-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-016",
+        "name": "Malt vinegar",
+        "slug": "malt-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-017",
+        "name": "Sherry vinegar",
+        "slug": "sherry-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-018",
+        "name": "Balsamic vinegar",
+        "slug": "balsamic-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-019",
+        "name": "Cane vinegar",
+        "slug": "cane-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-020",
+        "name": "Umeboshi vinegar",
+        "slug": "umeboshi-vinegar"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vinegar / acid",
+        "material_type_slug": "vinegar-acid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-021",
+        "name": "Dill pickle brine",
+        "slug": "dill-pickle-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-022",
+        "name": "Olive brine",
+        "slug": "olive-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-023",
+        "name": "Caper brine",
+        "slug": "caper-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-024",
+        "name": "Pepperoncini brine",
+        "slug": "pepperoncini-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-025",
+        "name": "Giardiniera brine",
+        "slug": "giardiniera-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-026",
+        "name": "Pickled beet liquid",
+        "slug": "pickled-beet-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-027",
+        "name": "Pickled onion liquid",
+        "slug": "pickled-onion-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-028",
+        "name": "Jalapeño escabeche",
+        "slug": "jalapeno-escabeche"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-029",
+        "name": "Preserved-lemon brine",
+        "slug": "preserved-lemon-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Pickling / preservation brine",
+        "material_type_slug": "pickling-preservation-brine"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-030",
+        "name": "Sauerkraut juice",
+        "slug": "sauerkraut-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-031",
+        "name": "Kimchi liquor",
+        "slug": "kimchi-liquor"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-032",
+        "name": "Fermented mustard-green brine",
+        "slug": "fermented-mustard-green-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-033",
+        "name": "Lacto-fermented fruit brine",
+        "slug": "lacto-fermented-fruit-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-034",
+        "name": "Lacto-fermented vegetable brine",
+        "slug": "lacto-fermented-vegetable-brine"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-035",
+        "name": "Kombucha",
+        "slug": "kombucha"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-036",
+        "name": "Water kefir",
+        "slug": "water-kefir"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-037",
+        "name": "Kvass",
+        "slug": "kvass"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-038",
+        "name": "Bread kvass",
+        "slug": "bread-kvass"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-039",
+        "name": "Tepache",
+        "slug": "tepache"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-040",
+        "name": "Boza",
+        "slug": "boza"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-041",
+        "name": "Amazake",
+        "slug": "amazake"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-042",
+        "name": "Fermented rice water",
+        "slug": "fermented-rice-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-043",
+        "name": "Sourdough hooch",
+        "slug": "sourdough-hooch"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fermentation liquid",
+        "material_type_slug": "fermentation-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-044",
+        "name": "Milk",
+        "slug": "milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-045",
+        "name": "Goat milk",
+        "slug": "goat-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-046",
+        "name": "Sheep milk",
+        "slug": "sheep-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-047",
+        "name": "Buttermilk",
+        "slug": "buttermilk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-048",
+        "name": "Milk kefir",
+        "slug": "milk-kefir"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-049",
+        "name": "Yogurt whey",
+        "slug": "yogurt-whey"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-050",
+        "name": "Ricotta whey",
+        "slug": "ricotta-whey"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-051",
+        "name": "Mozzarella whey",
+        "slug": "mozzarella-whey"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-052",
+        "name": "Evaporated milk",
+        "slug": "evaporated-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-053",
+        "name": "Sweetened condensed milk",
+        "slug": "sweetened-condensed-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Dairy / cultured dairy",
+        "material_type_slug": "dairy-cultured-dairy"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-054",
+        "name": "Chicken broth",
+        "slug": "chicken-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-055",
+        "name": "Beef broth",
+        "slug": "beef-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-056",
+        "name": "Beef consommé",
+        "slug": "beef-consomme"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-057",
+        "name": "Pork broth",
+        "slug": "pork-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-058",
+        "name": "Ham stock",
+        "slug": "ham-stock"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-059",
+        "name": "Ramen broth",
+        "slug": "ramen-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Animal broth / stock",
+        "material_type_slug": "animal-broth-stock"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-060",
+        "name": "Dashi",
+        "slug": "dashi"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-061",
+        "name": "Niboshi dashi",
+        "slug": "niboshi-dashi"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-062",
+        "name": "Clam juice",
+        "slug": "clam-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-063",
+        "name": "Oyster liquor",
+        "slug": "oyster-liquor"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-064",
+        "name": "Mussel liquor",
+        "slug": "mussel-liquor"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-065",
+        "name": "Shrimp-shell stock",
+        "slug": "shrimp-shell-stock"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-066",
+        "name": "Bonito broth",
+        "slug": "bonito-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-067",
+        "name": "Tuna-can liquid",
+        "slug": "tuna-can-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-068",
+        "name": "Sardine-can liquid",
+        "slug": "sardine-can-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-069",
+        "name": "Anchovy packing liquid",
+        "slug": "anchovy-packing-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Seafood liquid",
+        "material_type_slug": "seafood-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-070",
+        "name": "Tomato water",
+        "slug": "tomato-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-071",
+        "name": "Cucumber water",
+        "slug": "cucumber-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-072",
+        "name": "Celery juice",
+        "slug": "celery-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-073",
+        "name": "Carrot juice",
+        "slug": "carrot-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-074",
+        "name": "Beet juice",
+        "slug": "beet-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-075",
+        "name": "Cabbage juice",
+        "slug": "cabbage-juice"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-076",
+        "name": "Onion water",
+        "slug": "onion-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-077",
+        "name": "Roasted-pepper liquid",
+        "slug": "roasted-pepper-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-078",
+        "name": "Corn milk",
+        "slug": "corn-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-079",
+        "name": "Mushroom stock",
+        "slug": "mushroom-stock"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-080",
+        "name": "Artichoke liquid",
+        "slug": "artichoke-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Vegetable juice / water",
+        "material_type_slug": "vegetable-juice-water"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-081",
+        "name": "Canned pineapple syrup",
+        "slug": "canned-pineapple-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-082",
+        "name": "Canned peach syrup",
+        "slug": "canned-peach-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-083",
+        "name": "Canned pear syrup",
+        "slug": "canned-pear-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-084",
+        "name": "Mandarin-orange syrup",
+        "slug": "mandarin-orange-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-085",
+        "name": "Lychee syrup",
+        "slug": "lychee-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-086",
+        "name": "Rambutan syrup",
+        "slug": "rambutan-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-087",
+        "name": "Maraschino cherry syrup",
+        "slug": "maraschino-cherry-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-088",
+        "name": "Nata de coco syrup",
+        "slug": "nata-de-coco-syrup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-089",
+        "name": "Thawed-berry purge",
+        "slug": "thawed-berry-purge"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Fruit syrup / packing liquid",
+        "material_type_slug": "fruit-syrup-packing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-090",
+        "name": "Rice-washing water",
+        "slug": "rice-washing-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-091",
+        "name": "Congee water",
+        "slug": "congee-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-092",
+        "name": "Pasta water",
+        "slug": "pasta-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-093",
+        "name": "Potato cooking water",
+        "slug": "potato-cooking-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-094",
+        "name": "Wort",
+        "slug": "wort"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-095",
+        "name": "Malt extract solution",
+        "slug": "malt-extract-solution"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-096",
+        "name": "Spent-grain tea",
+        "slug": "spent-grain-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-097",
+        "name": "Oat milk",
+        "slug": "oat-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-098",
+        "name": "Horchata",
+        "slug": "horchata"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Grain / starch liquid",
+        "material_type_slug": "grain-starch-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-099",
+        "name": "Aquafaba",
+        "slug": "aquafaba"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-100",
+        "name": "Black-bean cooking liquor",
+        "slug": "black-bean-cooking-liquor"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-101",
+        "name": "Red-bean cooking liquor",
+        "slug": "red-bean-cooking-liquor"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-102",
+        "name": "Soy milk",
+        "slug": "soy-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-103",
+        "name": "Tofu whey",
+        "slug": "tofu-whey"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-104",
+        "name": "Sesame milk",
+        "slug": "sesame-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-105",
+        "name": "Black-sesame wash",
+        "slug": "black-sesame-wash"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-106",
+        "name": "Peanut milk",
+        "slug": "peanut-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-107",
+        "name": "Tahini water",
+        "slug": "tahini-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Legume / seed / nut liquid",
+        "material_type_slug": "legume-seed-nut-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-108",
+        "name": "Garlic tea",
+        "slug": "garlic-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-109",
+        "name": "Mushroom tea",
+        "slug": "mushroom-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-110",
+        "name": "Kombu tea",
+        "slug": "kombu-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-111",
+        "name": "Roasted corn tea",
+        "slug": "roasted-corn-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-112",
+        "name": "Barley tea",
+        "slug": "barley-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-113",
+        "name": "Buckwheat tea",
+        "slug": "buckwheat-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-114",
+        "name": "Burdock tea",
+        "slug": "burdock-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-115",
+        "name": "Chrysanthemum tea",
+        "slug": "chrysanthemum-tea"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-116",
+        "name": "Lapsang concentrate",
+        "slug": "lapsang-concentrate"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-117",
+        "name": "Yerba mate concentrate",
+        "slug": "yerba-mate-concentrate"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Tea / decoction",
+        "material_type_slug": "tea-decoction"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-118",
+        "name": "Miso soup",
+        "slug": "miso-soup"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-119",
+        "name": "Gazpacho",
+        "slug": "gazpacho"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-120",
+        "name": "Gravy",
+        "slug": "gravy"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-121",
+        "name": "Au jus",
+        "slug": "au-jus"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-122",
+        "name": "Clarified clam chowder",
+        "slug": "clarified-clam-chowder"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-123",
+        "name": "Diluted Caesar dressing",
+        "slug": "diluted-caesar-dressing"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-124",
+        "name": "Ranch whey",
+        "slug": "ranch-whey"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared savory food",
+        "material_type_slug": "prepared-savory-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-125",
+        "name": "Melted ice cream",
+        "slug": "melted-ice-cream"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-126",
+        "name": "Melted sorbet",
+        "slug": "melted-sorbet"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-127",
+        "name": "Crème anglaise",
+        "slug": "creme-anglaise"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-128",
+        "name": "Thinned pastry cream",
+        "slug": "thinned-pastry-cream"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-129",
+        "name": "Liquid gelatin dessert",
+        "slug": "liquid-gelatin-dessert"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-130",
+        "name": "Melted popsicle",
+        "slug": "melted-popsicle"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Prepared sweet food",
+        "material_type_slug": "prepared-sweet-food"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-131",
+        "name": "Cereal milk",
+        "slug": "cereal-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-132",
+        "name": "Oatmeal water",
+        "slug": "oatmeal-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-133",
+        "name": "Coffee",
+        "slug": "coffee"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-134",
+        "name": "Espresso",
+        "slug": "espresso"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-135",
+        "name": "Coffee creamer",
+        "slug": "coffee-creamer"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-136",
+        "name": "Malted milk",
+        "slug": "malted-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-137",
+        "name": "Chocolate milk",
+        "slug": "chocolate-milk"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Breakfast-adjacent",
+        "material_type_slug": "breakfast-adjacent"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-138",
+        "name": "Calpico / Calpis",
+        "slug": "calpico-calpis"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-139",
+        "name": "Malta",
+        "slug": "malta"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-140",
+        "name": "Sikhye",
+        "slug": "sikhye"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-141",
+        "name": "Sujeonggwa",
+        "slug": "sujeonggwa"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-142",
+        "name": "Chicha morada",
+        "slug": "chicha-morada"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-143",
+        "name": "Mauby",
+        "slug": "mauby"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-144",
+        "name": "Ayran",
+        "slug": "ayran"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-145",
+        "name": "Doogh",
+        "slug": "doogh"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-146",
+        "name": "Lassi",
+        "slug": "lassi"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-147",
+        "name": "Salep",
+        "slug": "salep"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-148",
+        "name": "Aloe drink",
+        "slug": "aloe-drink"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-149",
+        "name": "Grass-jelly drink",
+        "slug": "grass-jelly-drink"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-150",
+        "name": "Basil-seed drink",
+        "slug": "basil-seed-drink"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Commercial / regional beverage",
+        "material_type_slug": "commercial-regional-beverage"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-151",
+        "name": "Hot-dog water",
+        "slug": "hot-dog-water"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Packaged-food / processing liquid",
+        "material_type_slug": "packaged-food-processing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-152",
+        "name": "Vienna-sausage packing liquid",
+        "slug": "vienna-sausage-packing-liquid"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Packaged-food / processing liquid",
+        "material_type_slug": "packaged-food-processing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-153",
+        "name": "Canned Spam cooking liquid / glaze",
+        "slug": "canned-spam-cooking-liquid-glaze"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Packaged-food / processing liquid",
+        "material_type_slug": "packaged-food-processing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "identity": {
+        "id": "CURSE-LIQ-154",
+        "name": "Instant-noodle seasoning broth",
+        "slug": "instant-noodle-seasoning-broth"
+      },
+      "classification": {
+        "curse_type": "liquid",
+        "material_type": "Packaged-food / processing liquid",
+        "material_type_slug": "packaged-food-processing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+schema:
+  name: POC_CURSE_SCHEMA
+  version: "1.0"
+  purpose: >
+    Canonical current-state record for one PROOF OF CONCEPT Curse Index material.
+    Curse Index records are reference/ideation data and must never be interpreted
+    as cocktail-development evidence.
+
+curse_types:
+  implemented:
+    - liquid
+  future_supported:
+    - solid
+    - powder
+    - fat
+    - gas
+    - culture_microbe
+    - process
+    - service_presentation
+    - object
+
+record_template:
+  schema_version: "1.0"
+
+  identity:
+    id: CURSE-LIQ-000
+    name: ""
+    slug: ""
+
+  classification:
+    curse_type: liquid
+    material_type: ""
+    material_type_slug: ""
+
+  description:
+    summary: null
+    notes: null
+
+  sensory:
+    tags: []
+
+  function:
+    tags: []
+
+  attributes: []
+
+  scores:
+    curse_score: null
+    culinary_potential: null
+
+  safety:
+    allergens: []
+    dietary_flags: []
+    ingredient_flags: []
+    notes: null
+
+  relationships:
+    related_curse_ids: []
+
+  editorial:
+    catalog_status: active
+    added: YYYY-MM-DD
+    updated: YYYY-MM-DD
+
+score_rules:
+  curse_score:
+    range: "1-10"
+    meaning: >
+      Editorial estimate of how categorically wrong, alarming, unexpected, or
+      socially questionable the material sounds in a cocktail. Not a quality score
+      and not experimental evidence.
+  culinary_potential:
+    range: "1-10"
+    meaning: >
+      Editorial estimate of plausible flavor or structural usefulness. Not
+      experimental evidence and not validation.
+
+rules:
+  - Catalogued does not mean tested.
+  - Do not fabricate missing metadata to fill the interface.
+  - Physical use becomes evidence only through a cocktail development event.
+  - Safety metadata communicates known concerns but does not constitute food-safety clearance.
+  - Relationships to cocktails should be derived from cocktail ingredient curse_id links when available.
+  - Do not maintain a duplicate manually-authored used_in list when the relationship can be derived.

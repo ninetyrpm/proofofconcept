@@ -67,7 +67,7 @@ const cocktails = [
   },
   {
     id:'POC-006', slug:'pickleball', name:'Pickleball', status:'Cursed Imagination', revision:'0.1', class:'Hostile ritual', lastTested:'—',
-    summary:'Malört, pickle brine, then Malört again: a three-act service sequence based on the premise that nobody actually fucking wants it.',
+    summary:'Malört, pickle brine, then Malört again: a three-act service sequence based on the premise that nobody wants it.',
     shorthand:'Malört · pickle brine · Malört',
     intent:'Turn an aggressively undesirable ingredient pairing into a concise social ritual whose structure is the joke: bitter, brine, bitter, with no attempt to disguise what is happening.',
     ingredients:[['1 shot','Malört'],['1 shot','pickle brine'],['1 shot','Malört']],
@@ -109,31 +109,35 @@ const panel = [
   {name:'Open Seat', role:'Guest reviewer', reviews:0, note:'Old decisions may be re-examined'}
 ];
 
+let curses = [];
+let curseIndexMeta = { curse_types: [] };
+
 const graveyard = [
   {id:'POD-001', name:'Islay Storm Highball', cause:'A substitution cascade — Madeira for cream sherry, tonic for soda — produced a rough drink that required emergency lemon juice to become palatable.', tag:'Abandoned prototype'},
   {id:'POD-002', name:'Reserved Plot', cause:'Future failures deserve permanent records: what was attempted, what failed, whether the concept or execution died, and what should not be repeated.', tag:'Plot available'}
 ];
 
-let state = { view:'archive', slug:null, filter:'ALL' };
+let state = { view:'archive', slug:null, filter:'ALL', curseMaterialType:'all', curseSearch:'', curseSort:'name', curseTag:'all' };
 
 function esc(s=''){ return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m])); }
 function statusClass(s){ return s==='Locked'?'locked':s==='Peer Review'?'review':''; }
 
 function shell(content, opts={}){
-  const counts = {archive:cocktails.length,panel:panel.length,graveyard:graveyard.length};
+  const counts = {archive:cocktails.length,curses:curses.length,panel:panel.length,graveyard:graveyard.length};
   return `<div class="shell ${opts.graveyard?'graveyard':''}">
     <aside class="sidebar">
       <div>
         <div class="brand" data-go="archive"><div class="brand-kicker">experimental beverage institute</div><div class="brand-mark"><span>PROOF OF</span><span>CONCEPT</span></div><div class="brand-sub">Questionable beverages, empirically investigated.</div></div>
         <nav class="nav">
           ${navButton('archive','Research Index',counts.archive)}
+          ${navButton('curses','Curse Index',counts.curses)}
           ${navButton('status','Status Protocol','08')}
           ${navButton('panel','The Panel',counts.panel)}
           ${navButton('graveyard','The Graveyard',counts.graveyard)}
           ${navButton('submit','Submit a Problem','→')}
         </nav>
       </div>
-      <div class="sidebar-foot"><div class="sidebar-note">LOCKED = passed peer review.<br>Not frozen. Not sacred. Open to modification, derivatives, and future re-evaluation.</div><div class="version">POC / PROTOTYPE 0.1</div></div>
+      <div class="sidebar-foot"><div class="sidebar-note">LOCKED = passed peer review.<br>Not frozen. Not sacred. Open to modification, derivatives, and future re-evaluation.</div><div class="version">POC / PROTOTYPE 0.2</div></div>
     </aside>
     <main class="main">
       <header class="topbar"><div class="crumb"><button class="mobile-menu" data-go="archive">POC / </button><span class="status-light"></span>${esc(opts.crumb||'Research index')}</div><div class="topbar-right">Louisville, KY / panel not yet convened</div></header>
@@ -142,7 +146,10 @@ function shell(content, opts={}){
   </div>`;
 }
 
-function navButton(view,label,count){ return `<button data-go="${view}" class="${state.view===view?'active':''}"><span class="nav-label">${label}</span><span class="nav-count">${count}</span></button>`; }
+function navButton(view,label,count){
+ const active = state.view===view || (view==='archive' && state.view==='record') || (view==='curses' && state.view==='curse-record');
+ return `<button data-go="${view}" class="${active?'active':''}"><span class="nav-label">${label}</span><span class="nav-count">${count}</span></button>`;
+}
 
 function archivePage(){
  const filterOptions=['ALL','Cursed Imagination','Questionable Commitment','Suspiciously Viable','Serviceable'];
@@ -150,7 +157,7 @@ function archivePage(){
  return shell(`<div class="page">
    <section class="hero">
     <div class="hero-left"><div class="eyebrow">POC / research archive / founded under questionable circumstances</div><h1 class="hero-title"><span>PROOF</span><span>OF</span><span class="orange">CONCEPT</span></h1><p class="hero-deck">An evidence archive for beverage ideas that should have been stopped much earlier in the process.</p><div class="hero-rule">EDITORIAL RULE 01<br><strong>THE WEIRD INGREDIENT MUST HAVE A JOB.</strong></div></div>
-    <div class="hero-right"><div class="hero-ledger"><div class="ledger-row"><span>active records</span><strong>${cocktails.length}</strong></div><div class="ledger-row"><span>locked records</span><strong>0</strong></div><div class="ledger-row"><span>panel reviews</span><strong>0</strong></div><div class="ledger-row"><span>known casualties</span><strong>${graveyard.length}</strong></div></div><div class="hero-note"><div class="eyebrow">handwritten addition / probably important</div><p class="scribble">The goal is not to prove the idea was sensible. <span class="under">Only that it worked.</span></p></div></div>
+    <div class="hero-right"><div class="hero-ledger"><div class="ledger-row"><span>active records</span><strong>${cocktails.length}</strong></div><div class="ledger-row"><span>locked records</span><strong>0</strong></div><div class="ledger-row"><span>panel reviews</span><strong>0</strong></div><div class="ledger-row"><span>catalogued curses</span><strong>${curses.length}</strong></div><div class="ledger-row"><span>known casualties</span><strong>${graveyard.length}</strong></div></div><div class="hero-note"><div class="eyebrow">handwritten addition / probably important</div><p class="scribble">The goal is not to prove the idea was sensible. <span class="under">Only that it worked.</span></p></div></div>
    </section>
    <section class="section"><div class="section-head"><div><div class="eyebrow">01 / active research</div><h2 class="section-title">The Archive</h2></div><div class="section-note">Current builds, half-built thoughts, and decisions that seemed defensible at the time.</div></div>
     <div class="archive-tools">${filterOptions.map(f=>`<button class="filter ${state.filter===f?'active':''}" data-filter="${esc(f)}">${esc(f)}</button>`).join('')}</div>
@@ -163,6 +170,204 @@ function archivePage(){
 
 function recordRow(c){ return `<article class="record" data-record="${c.slug}" tabindex="0"><div class="record-id">${c.id}</div><div class="record-name">${esc(c.name)}</div><div class="record-ingredients">${esc(c.shorthand)}</div><div class="status ${statusClass(c.status)}">${esc(c.status)}</div></article>`; }
 function stageTrack(){ return `<div class="stage-track">${STATUS.map(([n,note],i)=>`<div class="stage internal" data-note="${esc(note)}"><div class="stage-num">0${i+1}</div><div class="stage-name">${esc(n)}</div></div>`).join('')}</div>`; }
+
+
+function materialTypes(){
+ const by = new Map();
+ curses.forEach(c=>{
+   const k=c.classification.material_type_slug;
+   if(!by.has(k)) by.set(k,{slug:k,label:c.classification.material_type,count:0});
+   by.get(k).count++;
+ });
+ return [...by.values()];
+}
+
+function curseTags(){
+ const set=new Set();
+ curses.forEach(c=>{
+   [...(c.sensory?.tags||[]), ...(c.function?.tags||[]), ...(c.attributes||[])].forEach(t=>set.add(t));
+ });
+ return [...set].sort((a,b)=>a.localeCompare(b));
+}
+
+function curseFiltered(){
+ const q=(state.curseSearch||'').trim().toLowerCase();
+ let list=curses.filter(c=>c.classification.curse_type==='liquid');
+ if(state.curseMaterialType!=='all') list=list.filter(c=>c.classification.material_type_slug===state.curseMaterialType);
+ if(q) list=list.filter(c=>`${c.identity.name} ${c.classification.material_type}`.toLowerCase().includes(q));
+ if(state.curseTag!=='all'){
+   list=list.filter(c=>[...(c.sensory?.tags||[]), ...(c.function?.tags||[]), ...(c.attributes||[])].includes(state.curseTag));
+ }
+ const scoreValue=(c,key)=>c.scores?.[key];
+ if(state.curseSort==='curse_score'){
+   list.sort((a,b)=>(scoreValue(b,'curse_score')??-1)-(scoreValue(a,'curse_score')??-1)||a.identity.name.localeCompare(b.identity.name));
+ } else if(state.curseSort==='culinary_potential'){
+   list.sort((a,b)=>(scoreValue(b,'culinary_potential')??-1)-(scoreValue(a,'culinary_potential')??-1)||a.identity.name.localeCompare(b.identity.name));
+ } else {
+   list.sort((a,b)=>a.identity.name.localeCompare(b.identity.name));
+ }
+ return list;
+}
+
+function scoreCell(value,label){
+ return `<div class="curse-score"><span>${value==null?'—':esc(value)}</span><small>${value==null?'not assigned':esc(label)}</small></div>`;
+}
+
+function curseRecordRow(c){
+ return `<article class="curse-record" data-curse-record="${esc(c.identity.slug)}" tabindex="0">
+   <div class="curse-record-id">${esc(c.identity.id)}</div>
+   <div class="curse-record-name">${esc(c.identity.name)}</div>
+   <div class="curse-record-type">${esc(c.classification.material_type)}</div>
+   ${scoreCell(c.scores?.curse_score,'curse / 10')}
+   ${scoreCell(c.scores?.culinary_potential,'potential / 10')}
+ </article>`;
+}
+
+function curseResultsHtml(){
+ const visible=curseFiltered();
+ return visible.map(curseRecordRow).join('') || '<div class="empty-state">No materials match the current index query.</div>';
+}
+
+function cursePage(){
+ const types=materialTypes();
+ const tags=curseTags();
+ const selected=types.find(t=>t.slug===state.curseMaterialType);
+ const visible=curseFiltered();
+ return shell(`<div class="page">
+   <section class="curse-hero">
+     <div class="eyebrow">Reference archive / ideation materials / evidence boundary enforced</div>
+     <h1 class="curse-title">CURSE <span>INDEX</span></h1>
+     <p class="curse-deck">Materials under consideration for purposes they may not have anticipated.</p>
+     <div class="curse-disclaimer"><div class="stamp">CATALOGUED ≠ TESTED</div><p>An entry means the material exists and may be interesting to use. Experimental evidence begins only when a cocktail development record documents physical use.</p></div>
+   </section>
+
+   <section class="section">
+     <div class="section-head">
+       <div><div class="eyebrow">Taxonomy / 01</div><h2 class="section-title">Browse the problem space</h2></div>
+       <div class="section-note">Tier 1 is deliberately boring for now: LIQUID is the only implemented curse type. The architecture is ready for additional material classes without exposing empty sections.</div>
+     </div>
+
+     <div class="curse-browser">
+       <aside class="curse-taxonomy">
+         <div class="taxonomy-block">
+           <div class="field-label">Curse type</div>
+           <button class="taxonomy-root active" type="button"><span>LIQUID</span><strong>${curses.length}</strong></button>
+         </div>
+         <div class="taxonomy-block">
+           <div class="field-label">Material type</div>
+           <button class="taxonomy-item ${state.curseMaterialType==='all'?'active':''}" data-material-type="all" type="button"><span>All liquid materials</span><strong>${curses.length}</strong></button>
+           ${types.map(t=>`<button class="taxonomy-item ${state.curseMaterialType===t.slug?'active':''}" data-material-type="${esc(t.slug)}" type="button"><span>${esc(t.label)}</span><strong>${t.count}</strong></button>`).join('')}
+         </div>
+       </aside>
+
+       <div class="curse-results">
+         <div class="curse-tools">
+           <label class="curse-search"><span class="field-label">Search materials</span><input id="curse-search" type="search" autocomplete="off" placeholder="fish sauce, hot-dog water…" value="${esc(state.curseSearch)}"></label>
+           <label><span class="field-label">Sort</span><select id="curse-sort">
+             <option value="name" ${state.curseSort==='name'?'selected':''}>Alphabetical</option>
+             <option value="curse_score" ${state.curseSort==='curse_score'?'selected':''}>Curse score ↓</option>
+             <option value="culinary_potential" ${state.curseSort==='culinary_potential'?'selected':''}>Culinary potential ↓</option>
+           </select></label>
+           <label><span class="field-label">Attribute / tag</span><select id="curse-tag" ${tags.length?'':'disabled'}>
+             <option value="all">All attributes / tags</option>
+             ${tags.map(t=>`<option value="${esc(t)}" ${state.curseTag===t?'selected':''}>${esc(t)}</option>`).join('')}
+           </select></label>
+         </div>
+
+         <div class="curse-results-head">
+           <div><strong id="curse-result-count">${visible.length}</strong> materials${selected?` / ${esc(selected.label)}`:''}</div>
+           <div>${tags.length?'Tag metadata available.':'Seed records intentionally contain no invented tag metadata.'}</div>
+         </div>
+         <div class="curse-list-head"><span>ID</span><span>Specific curse</span><span>Material type</span><span>Curse</span><span>Potential</span></div>
+         <div id="curse-results-list" class="curse-list">${curseResultsHtml()}</div>
+       </div>
+     </div>
+   </section>
+
+   <div class="callout-strip curse-callout"><div class="stamp">REFERENCE ONLY</div><p>The Curse Index answers <em>what questionable materials could we work with?</em> The cocktail archive answers <em>what did we actually do with them, and what happened?</em></p></div>
+ </div>`,{crumb:'Curse index'});
+}
+
+function displayTags(tags){
+ return tags?.length ? `<div class="tag-cloud">${tags.map(t=>`<span>${esc(t)}</span>`).join('')}</div>` : '<div class="metadata-empty">Not yet catalogued.</div>';
+}
+
+function curseDetailPage(slug){
+ const c=curses.find(x=>x.identity.slug===slug);
+ if(!c) return cursePage();
+ const safetyHasData=(c.safety?.allergens?.length||c.safety?.dietary_flags?.length||c.safety?.ingredient_flags?.length||c.safety?.notes);
+ return shell(`<div class="page">
+   <section class="curse-detail-head">
+     <div class="curse-detail-primary">
+       <div class="eyebrow">${esc(c.identity.id)} / reference material / no experimental claim</div>
+       <h1 class="curse-detail-title">${esc(c.identity.name)}</h1>
+       <p class="record-summary">${c.description?.summary?esc(c.description.summary):'No editorial description has been catalogued for this seed record.'}</p>
+     </div>
+     <div class="curse-detail-meta">
+       <div class="meta-grid">
+         ${meta('curse type',c.classification.curse_type.toUpperCase())}
+         ${meta('material type',c.classification.material_type)}
+         ${meta('catalog status',c.editorial?.catalog_status||'active')}
+         ${meta('experimental status','not represented here')}
+       </div>
+     </div>
+   </section>
+
+   <section class="curse-detail-grid">
+     <div class="curse-detail-main">
+       <div class="eyebrow">Classification</div>
+       <div class="curse-path"><span>LIQUID</span><b>→</b><span>${esc(c.classification.material_type)}</span><b>→</b><strong>${esc(c.identity.name)}</strong></div>
+
+       <div class="metadata-section"><div class="field-label">Sensory profile</div>${displayTags(c.sensory?.tags||[])}</div>
+       <div class="metadata-section"><div class="field-label">Possible functions</div>${displayTags(c.function?.tags||[])}</div>
+       <div class="metadata-section"><div class="field-label">Attributes</div>${displayTags(c.attributes||[])}</div>
+
+       <div class="score-pair">
+         <div class="score-card"><div class="field-label">Curse score</div><strong>${c.scores?.curse_score??'—'}</strong><p>${c.scores?.curse_score==null?'Editorial score not yet assigned.':'How categorically wrong this sounds in a cocktail.'}</p></div>
+         <div class="score-card"><div class="field-label">Culinary potential</div><strong>${c.scores?.culinary_potential??'—'}</strong><p>${c.scores?.culinary_potential==null?'Editorial estimate not yet assigned.':'Plausible usefulness; never experimental evidence.'}</p></div>
+       </div>
+     </div>
+
+     <aside class="curse-detail-side">
+       <div class="warning">
+         <div class="field-label">Safety / allergen information</div>
+         <p>${safetyHasData?[
+           c.safety.allergens?.length?`ALLERGENS: ${c.safety.allergens.join(', ')}`:null,
+           c.safety.dietary_flags?.length?`DIETARY: ${c.safety.dietary_flags.join(', ')}`:null,
+           c.safety.ingredient_flags?.length?`FLAGS: ${c.safety.ingredient_flags.join(', ')}`:null,
+           c.safety.notes
+         ].filter(Boolean).map(esc).join('<br><br>'):'No Curse Index safety metadata has been catalogued for this seed record. Absence of metadata is not clearance for experimental use.'}</p>
+       </div>
+
+       <div class="note-card" style="margin-top:22px">
+         <div class="eyebrow">POC usage</div>
+         <p>No linked POC use exists in the structured cocktail data. Historical cocktail text is not being mined to manufacture a relationship.</p>
+       </div>
+
+       <div class="note-card" style="transform:rotate(.5deg)">
+         <div class="eyebrow">Evidence boundary</div>
+         <p>Curse score, culinary potential, related records, and catalog presence do not establish testing, viability, validation, or peer review.</p>
+       </div>
+     </aside>
+   </section>
+ </div>`,{crumb:`Curse index / ${c.identity.id}`});
+}
+
+function updateCurseResults(){
+ const list=document.getElementById('curse-results-list');
+ const count=document.getElementById('curse-result-count');
+ if(list) list.innerHTML=curseResultsHtml();
+ if(count) count.textContent=curseFiltered().length;
+ bindCurseRows();
+}
+
+function bindCurseRows(){
+ document.querySelectorAll('[data-curse-record]').forEach(el=>{
+   const f=()=>go('curse-record',el.dataset.curseRecord);
+   el.onclick=f;
+   el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f();}};
+ });
+}
 
 function statusPage(){ return shell(`<div class="page"><section class="section" style="padding-top:52px"><div class="eyebrow">Protocol / status ladder</div><h1 class="section-title">Evidence before canon</h1><p class="prose">Every record advances through the same development ladder. The ladder describes what has actually happened to the drink, not how emotionally attached anyone is to the idea.</p>${stageTrack()}</section><section class="section"><div class="section-head"><div><div class="eyebrow">Locked / definition</div><h2 class="section-title">Approved, not embalmed</h2></div></div><div class="callout-strip"><div class="stamp">LOCKED</div><p>A specific recipe revision has passed peer review and is recognized as an approved reference build. It remains open to modification, derivatives, and future re-evaluation by a different panel.</p></div><p class="prose">A later revision can return to development while an older locked revision remains part of the permanent record. A future panel may also re-review an old locked build; the new verdict is appended to history rather than erasing the earlier one.</p></section></div>`,{crumb:'Status protocol'}); }
 
@@ -186,6 +391,8 @@ function submitPage(){ return shell(`<div class="page"><section class="section" 
 function render(){
  let html;
  if(state.view==='record') html=recordPage(state.slug);
+ else if(state.view==='curses') html=cursePage();
+ else if(state.view==='curse-record') html=curseDetailPage(state.slug);
  else if(state.view==='status') html=statusPage();
  else if(state.view==='panel') html=panelPage();
  else if(state.view==='graveyard') html=graveyardPage();
@@ -196,13 +403,52 @@ function render(){
  window.scrollTo({top:0,behavior:'instant'});
 }
 
-function go(view,slug=null){ state.view=view; state.slug=slug; try { history.pushState({view,slug},'', view==='archive'?'/' : view==='record'?`/cocktails/${slug}`:`/${view}`); } catch (_) {} render(); }
+function go(view,slug=null){
+ state.view=view; state.slug=slug;
+ let path='/';
+ if(view==='record') path=`/cocktails/${slug}`;
+ else if(view==='curses') path='/curses';
+ else if(view==='curse-record') path=`/curses/${slug}`;
+ else if(view!=='archive') path=`/${view}`;
+ try { history.pushState({view,slug},'',path); } catch (_) {}
+ render();
+}
 function bind(){
  document.querySelectorAll('[data-go]').forEach(el=>el.addEventListener('click',()=>go(el.dataset.go)));
  document.querySelectorAll('[data-record]').forEach(el=>{ const f=()=>go('record',el.dataset.record); el.addEventListener('click',f); el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')f();}); });
+ bindCurseRows();
+ document.querySelectorAll('[data-material-type]').forEach(el=>el.addEventListener('click',()=>{state.curseMaterialType=el.dataset.materialType;render();}));
+ const curseSearch=document.getElementById('curse-search');
+ if(curseSearch) curseSearch.addEventListener('input',e=>{state.curseSearch=e.target.value;updateCurseResults();});
+ const curseSort=document.getElementById('curse-sort');
+ if(curseSort) curseSort.addEventListener('change',e=>{state.curseSort=e.target.value;updateCurseResults();});
+ const curseTag=document.getElementById('curse-tag');
+ if(curseTag) curseTag.addEventListener('change',e=>{state.curseTag=e.target.value;updateCurseResults();});
  document.querySelectorAll('[data-filter]').forEach(el=>el.addEventListener('click',()=>{state.filter=el.dataset.filter;render();}));
  const form=document.getElementById('submission-form'); if(form) form.addEventListener('submit',e=>{e.preventDefault(); alert('Prototype only. Submission transport has intentionally not been implemented.');});
 }
-function routeFromPath(){ const p=location.pathname.split('/').filter(Boolean); if(!p.length){state.view='archive';return;} if(p[0]==='cocktails'&&p[1]){state.view='record';state.slug=p[1];return;} if(['status','panel','graveyard','submit'].includes(p[0])){state.view=p[0];return;} state.view='archive'; }
+function routeFromPath(){
+ const p=location.pathname.split('/').filter(Boolean);
+ if(!p.length){state.view='archive';state.slug=null;return;}
+ if(p[0]==='cocktails'&&p[1]){state.view='record';state.slug=p[1];return;}
+ if(p[0]==='curses'&&p[1]){state.view='curse-record';state.slug=p[1];return;}
+ if(p[0]==='curses'){state.view='curses';state.slug=null;return;}
+ if(['status','panel','graveyard','submit'].includes(p[0])){state.view=p[0];state.slug=null;return;}
+ state.view='archive'; state.slug=null;
+}
+async function init(){
+ try {
+   const response=await fetch('/data/curses.json',{cache:'no-store'});
+   if(!response.ok) throw new Error(`Curse data HTTP ${response.status}`);
+   const payload=await response.json();
+   curses=Array.isArray(payload.records)?payload.records:[];
+   curseIndexMeta=payload.index||{curse_types:[]};
+ } catch (error) {
+   console.error('Curse Index data failed to load:',error);
+   curses=[];
+ }
+ routeFromPath();
+ render();
+}
 window.addEventListener('popstate',()=>{routeFromPath();render();});
-routeFromPath(); render();
+init();

@@ -1,0 +1,41 @@
+schema_version: "1.0"
+
+identity:
+  id: CURSE-LIQ-001
+  name: Fish sauce
+  slug: fish-sauce
+
+classification:
+  curse_type: liquid
+  material_type: Condiment / seasoning
+  material_type_slug: condiment-seasoning
+
+description:
+  summary: null
+  notes: null
+
+sensory:
+  tags: []
+
+function:
+  tags: []
+
+attributes: []
+
+scores:
+  curse_score: null
+  culinary_potential: null
+
+safety:
+  allergens: []
+  dietary_flags: []
+  ingredient_flags: []
+  notes: null
+
+relationships:
+  related_curse_ids: []
+
+editorial:
+  catalog_status: active
+  added: 2026-08-20
+  updated: 2026-08-20

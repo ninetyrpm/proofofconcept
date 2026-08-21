@@ -1,0 +1,128 @@
+site_sync:
+  schema_version: "1.1"
+
+  scope:
+    type: project
+    id: POC
+
+  generated: 2026-08-20
+
+  change_type:
+    - site_architecture_change
+    - data_model_change
+    - editorial_decision
+
+  human_summary: >
+    Adopted and implemented the CURSE INDEX as a separate reference and ideation
+    database for unusual materials. The initial public implementation contains the
+    LIQUID curse type, 17 Tier-2 material categories, and 154 seed materials. Curse
+    Index records do not establish physical testing, viability, validation, peer
+    review, or any other cocktail-development evidence.
+
+  event_schema: POC_PROJECT_EVENT_SCHEMA.yaml
+
+  event:
+    schema_version: "1.0"
+    event:
+      id: POC-PROJ-E001
+      scope:
+        type: project
+        id: POC
+      date: 2026-08-20
+      type: site_architecture_change
+      author: null
+
+    decision:
+      title: Establish CURSE INDEX as a separate reference archive
+      summary: >
+        PROOF OF CONCEPT will maintain a three-tier Curse Index beginning with
+        LIQUID materials. Catalog presence and editorial metadata are explicitly
+        non-evidentiary; physical use becomes evidence only through cocktail
+        development records.
+
+    rationale: >
+      Separating ideation/reference materials from evidence-backed cocktail records
+      allows broad exploration without manufacturing experimental history or
+      conflating culinary potential with demonstrated viability.
+
+    affected_systems:
+      - site_architecture
+      - data_model
+      - website_navigation
+      - taxonomy
+      - safety
+
+    canonical_patch:
+      site_architecture:
+        curse_index:
+          enabled: true
+          route: /curses
+          detail_route: /curses/[slug]
+      data_model:
+        curse_schema: POC_CURSE_SCHEMA.yaml
+        initial_curse_type: liquid
+      editorial_policy:
+        curse_index_evidence_boundary: >
+          Catalogued does not mean tested. Only cocktail development events establish
+          experimental evidence.
+
+    supersedes: []
+    amends: []
+    related_events: []
+
+    safety_implications:
+      reviewed: true
+      changes_policy: false
+      summary: >
+        Curse Index records support safety/allergen metadata, but absence of metadata
+        is not safety clearance and cocktail-specific handling/disclosure remains in
+        the cocktail development record.
+
+    implementation:
+      website_change_required: true
+      schema_change_required: true
+      protocol_change_required: false
+      migration_required: false
+      notes:
+        - Existing cocktail records do not require immediate Curse Index backfill.
+        - Cocktail-to-curse relationships should later derive from optional curse_id links.
+
+    open_questions: []
+
+  canonical_patch:
+    site_architecture:
+      curse_index:
+        enabled: true
+    schemas:
+      curse: POC_CURSE_SCHEMA.yaml
+
+  cocktail_state:
+    applicable: false
+
+  project_state:
+    applicable: true
+    decision_type: site_architecture_change
+    supersedes: []
+    amends: []
+    safety_policy:
+      reviewed: true
+      changed: false
+    implementation:
+      website_change_required: true
+      schema_change_required: true
+      protocol_change_required: false
+      migration_required: false
+
+  site_actions:
+    add_event: true
+    update_canonical_record: false
+    update_project_policy: true
+    add_or_update_reviewer_records: []
+    move_to_graveyard: false
+    restore_from_graveyard: false
+    set_reference_build: false
+    migration_required: false
+    notes:
+      - Add CURSE INDEX navigation.
+      - Add structured LIQUID seed dataset.
+      - Do not infer experimental evidence from Curse Index metadata.
