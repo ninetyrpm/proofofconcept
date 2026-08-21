@@ -14,7 +14,7 @@ python3 -m http.server 4173
 
 Open `http://localhost:4173` and navigate through the interface.
 
-Because this is a client-side SPA, direct route refreshes such as `/cocktails/gym-sock` or `/curses/fish-sauce` require a fallback rewrite. `vercel.json` provides that on Vercel. Python's simple HTTP server does not.
+Because this is a client-side SPA, direct route requests such as `/cocktails/gym-sock`, `/curses`, or `/curses/fish-sauce` must be rewritten to the application shell. `vercel.json` uses Vercel’s documented SPA catch-all rewrite to `/index.html`, so bookmarks, refreshes, pasted deep links, and new-tab navigation resolve correctly on Vercel. A bare local static file server will not reproduce that rewrite behavior.
 
 ## Deploy to Vercel
 

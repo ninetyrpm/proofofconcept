@@ -1,0 +1,111 @@
+site_sync:
+  schema_version: "1.1"
+
+  scope:
+    type: project
+    id: POC
+
+  generated: 2026-08-20
+
+  change_type:
+    - site_architecture_change
+
+  human_summary: >
+    Replaced the legacy Vercel cleanUrls/routes configuration with the documented
+    SPA catch-all rewrite so direct requests, refreshes, bookmarks, and pasted
+    deep links for application routes resolve through index.html.
+
+  event_schema: POC_PROJECT_EVENT_SCHEMA.yaml
+
+  event:
+    schema_version: "1.0"
+    event:
+      id: POC-PROJ-E003
+      scope:
+        type: project
+        id: POC
+      date: 2026-08-20
+      type: site_architecture_change
+      author: ChatGPT
+
+    decision:
+      title: Use canonical Vercel SPA deep-link rewrite
+      summary: >
+        Remove cleanUrls, trailingSlash, and legacy routes from vercel.json and
+        use a single /(.*) rewrite to /index.html for the static client-side SPA.
+
+    rationale: >
+      Client-side navigation worked because the application router handled route
+      changes after initial load, while cold requests to subpaths were rejected
+      before the SPA loaded. The catch-all rewrite makes Vercel serve the app
+      shell for those routes while preserving the requested browser URL.
+
+    affected_systems:
+      - site_architecture
+
+    canonical_patch:
+      deployment:
+        vercel:
+          spa_rewrite:
+            source: "/(.*)"
+            destination: "/index.html"
+          clean_urls: false
+          legacy_routes: false
+
+    supersedes: []
+    amends:
+      - POC-PROJ-E002
+
+    safety_implications:
+      reviewed: true
+      changes_policy: false
+      summary: null
+
+    implementation:
+      website_change_required: true
+      schema_change_required: false
+      protocol_change_required: false
+      migration_required: false
+      notes:
+        - Redeploy the rebuilt repository so Vercel reads the new root vercel.json.
+
+    open_questions: []
+
+  canonical_patch:
+    deployment:
+      vercel:
+        spa_rewrite:
+          source: "/(.*)"
+          destination: "/index.html"
+        clean_urls: false
+        legacy_routes: false
+
+  cocktail_state:
+    applicable: false
+
+  project_state:
+    applicable: true
+    decision_type: site_architecture_change
+    supersedes: []
+    amends:
+      - POC-PROJ-E002
+    safety_policy:
+      reviewed: true
+      changed: false
+    implementation:
+      website_change_required: true
+      schema_change_required: false
+      protocol_change_required: false
+      migration_required: false
+
+  site_actions:
+    add_event: true
+    update_canonical_record: false
+    update_project_policy: true
+    add_or_update_reviewer_records: []
+    move_to_graveyard: false
+    restore_from_graveyard: false
+    set_reference_build: false
+    migration_required: false
+    notes:
+      - Redeploy the rebuilt repository so the root vercel.json takes effect.
