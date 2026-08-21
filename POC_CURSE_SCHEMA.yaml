@@ -1,6 +1,6 @@
 schema:
   name: POC_CURSE_SCHEMA
-  version: "1.0"
+  version: "1.1"
   purpose: >
     Canonical current-state record for one PROOF OF CONCEPT Curse Index material.
     Curse Index records are reference/ideation data and must never be interpreted
@@ -9,10 +9,10 @@ schema:
 curse_types:
   implemented:
     - liquid
+    - fat
   future_supported:
     - solid
     - powder
-    - fat
     - gas
     - culture_microbe
     - process
@@ -20,15 +20,15 @@ curse_types:
     - object
 
 record_template:
-  schema_version: "1.0"
+  schema_version: "1.1"
 
   identity:
-    id: CURSE-LIQ-000
+    id: CURSE-TYPE-000
     name: ""
     slug: ""
 
   classification:
-    curse_type: liquid
+    curse_type: ""
     material_type: ""
     material_type_slug: ""
 
@@ -61,6 +61,16 @@ record_template:
     catalog_status: active
     added: YYYY-MM-DD
     updated: YYYY-MM-DD
+
+classification_rules:
+  tier_1_principle: >
+    Curse Type groups materials by the behavior relevant to cocktail design, not
+    strictly by room-temperature physical phase. Oils are classified as FAT
+    because the lipid phase is the intervention, even when the material is liquid.
+  fat_boundary: >
+    FAT includes isolated lipid phases, rendered or skimmed fats, oils, and
+    fat-dominant emulsions. Ordinary foods that merely contain fat should remain
+    outside FAT and may later belong under SOLID or another Curse Type.
 
 score_rules:
   curse_score:

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "index": {
     "title": "CURSE INDEX",
     "curse_types": [
@@ -7,8 +7,14 @@
         "id": "liquid",
         "label": "LIQUID",
         "record_count": 154
+      },
+      {
+        "id": "fat",
+        "label": "FAT",
+        "record_count": 140
       }
-    ]
+    ],
+    "taxonomy_note": "Tier 1 groups materials by cocktail-design behavior, not strictly by room-temperature physical phase. Oils live under FAT because the lipid phase is the relevant intervention."
   },
   "records": [
     {
@@ -6448,6 +6454,5886 @@
         "curse_type": "liquid",
         "material_type": "Packaged-food / processing liquid",
         "material_type_slug": "packaged-food-processing-liquid"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-001",
+        "name": "Beef tallow",
+        "slug": "beef-tallow"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-002",
+        "name": "Wagyu beef fat",
+        "slug": "wagyu-beef-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-003",
+        "name": "Pork lard",
+        "slug": "pork-lard"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-004",
+        "name": "Leaf lard",
+        "slug": "leaf-lard"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-005",
+        "name": "Chicken schmaltz",
+        "slug": "chicken-schmaltz"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-006",
+        "name": "Duck fat",
+        "slug": "duck-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-007",
+        "name": "Goose fat",
+        "slug": "goose-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-008",
+        "name": "Turkey fat",
+        "slug": "turkey-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-009",
+        "name": "Lamb tallow",
+        "slug": "lamb-tallow"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-010",
+        "name": "Mutton tallow",
+        "slug": "mutton-tallow"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-011",
+        "name": "Beef suet",
+        "slug": "beef-suet"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-012",
+        "name": "Bone marrow fat",
+        "slug": "bone-marrow-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-013",
+        "name": "Foie gras fat",
+        "slug": "foie-gras-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-014",
+        "name": "Bacon fat",
+        "slug": "bacon-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Animal rendered fat",
+        "material_type_slug": "animal-rendered-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-015",
+        "name": "Sausage drippings",
+        "slug": "sausage-drippings"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-016",
+        "name": "Chorizo fat",
+        "slug": "chorizo-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-017",
+        "name": "Pepperoni grease",
+        "slug": "pepperoni-grease"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-018",
+        "name": "Pizza grease",
+        "slug": "pizza-grease"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-019",
+        "name": "Burger drippings",
+        "slug": "burger-drippings"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-020",
+        "name": "Roast-chicken fat",
+        "slug": "roast-chicken-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-021",
+        "name": "Turkey roasting fat",
+        "slug": "turkey-roasting-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-022",
+        "name": "Ham drippings",
+        "slug": "ham-drippings"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-023",
+        "name": "Pot-roast fat cap",
+        "slug": "pot-roast-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-024",
+        "name": "Beef-stock fat cap",
+        "slug": "beef-stock-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-025",
+        "name": "Chicken-stock fat cap",
+        "slug": "chicken-stock-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-026",
+        "name": "Pork-stock fat cap",
+        "slug": "pork-stock-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-027",
+        "name": "Ramen fat cap",
+        "slug": "ramen-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-028",
+        "name": "Pho fat cap",
+        "slug": "pho-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-029",
+        "name": "Carnitas cooking fat",
+        "slug": "carnitas-cooking-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-030",
+        "name": "Meatloaf drippings",
+        "slug": "meatloaf-drippings"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Food drippings / skimmed fat",
+        "material_type_slug": "food-drippings-skimmed-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-031",
+        "name": "Butter",
+        "slug": "butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-032",
+        "name": "Brown butter",
+        "slug": "brown-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-033",
+        "name": "Clarified butter",
+        "slug": "clarified-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-034",
+        "name": "Ghee",
+        "slug": "ghee"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-035",
+        "name": "Cultured butter",
+        "slug": "cultured-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-036",
+        "name": "Goat butter",
+        "slug": "goat-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-037",
+        "name": "Sheep butter",
+        "slug": "sheep-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-038",
+        "name": "Buffalo butter",
+        "slug": "buffalo-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-039",
+        "name": "Smen",
+        "slug": "smen"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-040",
+        "name": "Butter oil / anhydrous milk fat",
+        "slug": "butter-oil-anhydrous-milk-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Dairy fat",
+        "material_type_slug": "dairy-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-041",
+        "name": "Extra-virgin olive oil",
+        "slug": "extra-virgin-olive-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-042",
+        "name": "Refined olive oil",
+        "slug": "refined-olive-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-043",
+        "name": "Avocado oil",
+        "slug": "avocado-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-044",
+        "name": "Coconut oil",
+        "slug": "coconut-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-045",
+        "name": "Palm oil",
+        "slug": "palm-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-046",
+        "name": "Palm kernel oil",
+        "slug": "palm-kernel-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-047",
+        "name": "Rice bran oil",
+        "slug": "rice-bran-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-048",
+        "name": "Grapeseed oil",
+        "slug": "grapeseed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-049",
+        "name": "Canola oil",
+        "slug": "canola-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-050",
+        "name": "Corn oil",
+        "slug": "corn-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-051",
+        "name": "Soybean oil",
+        "slug": "soybean-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-052",
+        "name": "Sunflower oil",
+        "slug": "sunflower-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-053",
+        "name": "Safflower oil",
+        "slug": "safflower-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-054",
+        "name": "Cottonseed oil",
+        "slug": "cottonseed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Plant culinary oil",
+        "material_type_slug": "plant-culinary-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-055",
+        "name": "Toasted sesame oil",
+        "slug": "toasted-sesame-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-056",
+        "name": "Untoasted sesame oil",
+        "slug": "untoasted-sesame-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-057",
+        "name": "Peanut oil",
+        "slug": "peanut-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-058",
+        "name": "Walnut oil",
+        "slug": "walnut-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-059",
+        "name": "Hazelnut oil",
+        "slug": "hazelnut-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-060",
+        "name": "Pistachio oil",
+        "slug": "pistachio-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-061",
+        "name": "Almond oil",
+        "slug": "almond-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-062",
+        "name": "Pecan oil",
+        "slug": "pecan-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-063",
+        "name": "Macadamia oil",
+        "slug": "macadamia-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-064",
+        "name": "Pumpkin seed oil",
+        "slug": "pumpkin-seed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-065",
+        "name": "Flaxseed oil",
+        "slug": "flaxseed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-066",
+        "name": "Hemp seed oil",
+        "slug": "hemp-seed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-067",
+        "name": "Poppy seed oil",
+        "slug": "poppy-seed-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-068",
+        "name": "Perilla oil",
+        "slug": "perilla-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Nut / seed oil",
+        "material_type_slug": "nut-seed-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-069",
+        "name": "Sardine oil",
+        "slug": "sardine-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-070",
+        "name": "Anchovy oil",
+        "slug": "anchovy-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-071",
+        "name": "Tuna oil",
+        "slug": "tuna-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-072",
+        "name": "Mackerel oil",
+        "slug": "mackerel-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-073",
+        "name": "Salmon oil",
+        "slug": "salmon-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-074",
+        "name": "Herring oil",
+        "slug": "herring-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-075",
+        "name": "Cod liver oil",
+        "slug": "cod-liver-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-076",
+        "name": "Fish-oil capsule contents",
+        "slug": "fish-oil-capsule-contents"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-077",
+        "name": "Shrimp-shell oil",
+        "slug": "shrimp-shell-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-078",
+        "name": "Lobster-shell oil",
+        "slug": "lobster-shell-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Marine oil",
+        "material_type_slug": "marine-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-079",
+        "name": "Chili oil",
+        "slug": "chili-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-080",
+        "name": "Chili crisp oil",
+        "slug": "chili-crisp-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-081",
+        "name": "Garlic oil",
+        "slug": "garlic-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-082",
+        "name": "Scallion oil",
+        "slug": "scallion-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-083",
+        "name": "Ginger-scallion oil",
+        "slug": "ginger-scallion-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-084",
+        "name": "Sichuan pepper oil",
+        "slug": "sichuan-pepper-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-085",
+        "name": "Truffle oil",
+        "slug": "truffle-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-086",
+        "name": "Rosemary oil",
+        "slug": "rosemary-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-087",
+        "name": "Basil oil",
+        "slug": "basil-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-088",
+        "name": "Curry oil",
+        "slug": "curry-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-089",
+        "name": "Achiote oil",
+        "slug": "achiote-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-090",
+        "name": "Harissa oil",
+        "slug": "harissa-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-091",
+        "name": "Porcini oil",
+        "slug": "porcini-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-092",
+        "name": "Smoked oil",
+        "slug": "smoked-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-093",
+        "name": "Black-garlic oil",
+        "slug": "black-garlic-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-094",
+        "name": "Ramen aroma oil",
+        "slug": "ramen-aroma-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-095",
+        "name": "Burnt-leek oil",
+        "slug": "burnt-leek-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Infused / flavored oil",
+        "material_type_slug": "infused-flavored-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-096",
+        "name": "Sardine-can oil",
+        "slug": "sardine-can-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-097",
+        "name": "Anchovy-jar oil",
+        "slug": "anchovy-jar-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-098",
+        "name": "Tuna-can oil",
+        "slug": "tuna-can-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-099",
+        "name": "Smoked-oyster packing oil",
+        "slug": "smoked-oyster-packing-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-100",
+        "name": "Sun-dried-tomato jar oil",
+        "slug": "sun-dried-tomato-jar-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-101",
+        "name": "Artichoke-heart marinade oil",
+        "slug": "artichoke-heart-marinade-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-102",
+        "name": "Roasted-pepper jar oil",
+        "slug": "roasted-pepper-jar-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-103",
+        "name": "Feta marinade oil",
+        "slug": "feta-marinade-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-104",
+        "name": "Mozzarella marinade oil",
+        "slug": "mozzarella-marinade-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-105",
+        "name": "Marinated-mushroom oil",
+        "slug": "marinated-mushroom-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-106",
+        "name": "Giardiniera oil",
+        "slug": "giardiniera-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-107",
+        "name": "Olive marinade oil",
+        "slug": "olive-marinade-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-108",
+        "name": "Pesto surface oil",
+        "slug": "pesto-surface-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-109",
+        "name": "Peanut-butter separated oil",
+        "slug": "peanut-butter-separated-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-110",
+        "name": "Tahini separated oil",
+        "slug": "tahini-separated-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-111",
+        "name": "Almond-butter separated oil",
+        "slug": "almond-butter-separated-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-112",
+        "name": "Coconut-milk fat cap",
+        "slug": "coconut-milk-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-113",
+        "name": "Coconut-cream fat cap",
+        "slug": "coconut-cream-fat-cap"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Packaged-food / preservation oil",
+        "material_type_slug": "packaged-food-preservation-oil"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-114",
+        "name": "Mayonnaise",
+        "slug": "mayonnaise"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-115",
+        "name": "Japanese mayonnaise",
+        "slug": "japanese-mayonnaise"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-116",
+        "name": "Miracle Whip",
+        "slug": "miracle-whip"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-117",
+        "name": "Aioli",
+        "slug": "aioli"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-118",
+        "name": "Toum",
+        "slug": "toum"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-119",
+        "name": "Hollandaise",
+        "slug": "hollandaise"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-120",
+        "name": "Béarnaise",
+        "slug": "bearnaise"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-121",
+        "name": "Caesar dressing",
+        "slug": "caesar-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-122",
+        "name": "Ranch dressing",
+        "slug": "ranch-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-123",
+        "name": "Blue-cheese dressing",
+        "slug": "blue-cheese-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-124",
+        "name": "Thousand Island dressing",
+        "slug": "thousand-island-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-125",
+        "name": "Tartar sauce",
+        "slug": "tartar-sauce"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-126",
+        "name": "Remoulade",
+        "slug": "remoulade"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-127",
+        "name": "Russian dressing",
+        "slug": "russian-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-128",
+        "name": "Green goddess dressing",
+        "slug": "green-goddess-dressing"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Emulsified fat",
+        "material_type_slug": "emulsified-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-129",
+        "name": "Cocoa butter",
+        "slug": "cocoa-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-130",
+        "name": "Vegetable shortening",
+        "slug": "vegetable-shortening"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-131",
+        "name": "Bakery shortening",
+        "slug": "bakery-shortening"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-132",
+        "name": "Liquid shortening",
+        "slug": "liquid-shortening"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-133",
+        "name": "Margarine",
+        "slug": "margarine"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-134",
+        "name": "Pastry margarine",
+        "slug": "pastry-margarine"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-135",
+        "name": "Vegan butter",
+        "slug": "vegan-butter"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-136",
+        "name": "Vanaspati",
+        "slug": "vanaspati"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-137",
+        "name": "MCT oil",
+        "slug": "mct-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-138",
+        "name": "Fractionated coconut oil",
+        "slug": "fractionated-coconut-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-139",
+        "name": "Butter-flavored popcorn oil",
+        "slug": "butter-flavored-popcorn-oil"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
+      },
+      "description": {
+        "summary": null,
+        "notes": null
+      },
+      "sensory": {
+        "tags": []
+      },
+      "function": {
+        "tags": []
+      },
+      "attributes": [],
+      "scores": {
+        "curse_score": null,
+        "culinary_potential": null
+      },
+      "safety": {
+        "allergens": [],
+        "dietary_flags": [],
+        "ingredient_flags": [],
+        "notes": null
+      },
+      "relationships": {
+        "related_curse_ids": []
+      },
+      "editorial": {
+        "catalog_status": "active",
+        "added": "2026-08-20",
+        "updated": "2026-08-20"
+      }
+    },
+    {
+      "schema_version": "1.1",
+      "identity": {
+        "id": "CURSE-FAT-140",
+        "name": "Confectionery coating fat",
+        "slug": "confectionery-coating-fat"
+      },
+      "classification": {
+        "curse_type": "fat",
+        "material_type": "Specialty / manufactured fat",
+        "material_type_slug": "specialty-manufactured-fat"
       },
       "description": {
         "summary": null,

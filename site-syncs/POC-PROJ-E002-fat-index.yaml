@@ -1,0 +1,133 @@
+site_sync:
+  schema_version: "1.1"
+
+  scope:
+    type: project
+    id: POC
+
+  generated: 2026-08-20
+
+  change_type:
+    - taxonomy_change
+    - data_model_change
+    - site_architecture_change
+
+  human_summary: >
+    Expanded the Curse Index with FAT as the second implemented Tier-1 Curse Type.
+    FAT is defined by lipid-phase behavior rather than strict room-temperature
+    physical state. Added ten Tier-2 material categories and 140 seed records,
+    while preserving the rule that cataloguing does not constitute testing or evidence.
+
+  event_schema: POC_PROJECT_EVENT_SCHEMA.yaml
+
+  event:
+    schema_version: "1.0"
+    event:
+      id: POC-PROJ-E002
+      scope:
+        type: project
+        id: POC
+      date: 2026-08-20
+      type: taxonomy_change
+      author: null
+
+    decision:
+      title: Implement FAT as the second Curse Index type
+      summary: >
+        Add FAT beside LIQUID in the Curse Index. Classify isolated lipid phases,
+        rendered and skimmed fats, oils, and fat-dominant emulsions under FAT.
+        Ordinary foods that merely contain fat remain outside this Curse Type.
+
+    rationale: >
+      FAT creates a distinct cocktail-design problem space involving lipid aroma,
+      texture, washing, floating, emulsification, and separation. Treating oils as
+      LIQUID would obscure that functional distinction.
+
+    affected_systems:
+      - taxonomy
+      - data_model
+      - site_architecture
+      - website_navigation
+
+    canonical_patch:
+      curse_index:
+        implemented_types:
+          - liquid
+          - fat
+        fat:
+          id_prefix: CURSE-FAT
+          record_count: 140
+          material_types:
+            - Animal rendered fat
+            - Food drippings / skimmed fat
+            - Dairy fat
+            - Plant culinary oil
+            - Nut / seed oil
+            - Marine oil
+            - Infused / flavored oil
+            - Packaged-food / preservation oil
+            - Emulsified fat
+            - Specialty / manufactured fat
+
+    supersedes: []
+    amends:
+      - POC-PROJ-E001
+    related_events:
+      - POC-PROJ-E001
+
+    safety_implications:
+      reviewed: true
+      changes_policy: false
+      summary: >
+        No safety policy changed. Seed records remain intentionally incomplete and
+        absence of safety metadata is not clearance for experimental use.
+
+    implementation:
+      website_change_required: true
+      schema_change_required: true
+      protocol_change_required: false
+      migration_required: false
+      notes:
+        - Existing LIQUID records and URLs remain unchanged.
+        - POC_CURSE_SCHEMA advances to v1.1 to formalize the FAT boundary.
+
+    open_questions: []
+
+  canonical_patch:
+    curse_index:
+      implemented_types:
+        - liquid
+        - fat
+      total_records: 294
+      fat_record_count: 140
+
+  cocktail_state:
+    applicable: false
+
+  project_state:
+    applicable: true
+    decision_type: taxonomy_change
+    supersedes: []
+    amends:
+      - POC-PROJ-E001
+    safety_policy:
+      reviewed: true
+      changed: false
+    implementation:
+      website_change_required: true
+      schema_change_required: true
+      protocol_change_required: false
+      migration_required: false
+
+  site_actions:
+    add_event: true
+    update_canonical_record: false
+    update_project_policy: true
+    add_or_update_reviewer_records: []
+    move_to_graveyard: false
+    restore_from_graveyard: false
+    set_reference_build: false
+    migration_required: false
+    notes:
+      - Add FAT Tier-1 browser option and 140 structured seed records.
+      - Preserve catalogued-not-tested evidence boundary.

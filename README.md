@@ -40,7 +40,7 @@ No runtime dependencies, external database, or environment variables are require
 
 ## Curse Index data
 
-`data/curses.json` is the version-controlled runtime dataset for the zero-dependency prototype. It currently contains the 154 LIQUID seed records defined in the approved Curse Index implementation specification.
+`data/curses.json` is the version-controlled runtime dataset for the zero-dependency prototype. It currently contains the 154 LIQUID + 140 FAT seed records defined in the approved Curse Index implementation specification.
 
 Seed records intentionally contain only stable identity and Tier-1/Tier-2 classification data. Description, tags, scores, and safety fields remain empty until real editorial metadata is supplied.
 
@@ -56,3 +56,9 @@ The intended canonical Curse Index data shape is documented in `POC_CURSE_SCHEMA
 - Automatic backlinking of historical cocktail ingredients to Curse Index IDs
 - Community ratings or AI pairing recommendations
 - Photography pipeline
+
+## FAT expansion
+
+- `docs/FAT_INDEX_EXPANSION.md` — Tier-1 FAT boundary and Tier-2 taxonomy
+- `data/examples/beef-tallow.minimal.yaml` — minimal FAT record example
+- `site-syncs/POC-PROJ-E002-fat-index.yaml` — project-scoped adoption event

@@ -1,0 +1,41 @@
+schema_version: "1.1"
+
+identity:
+  id: CURSE-FAT-001
+  name: Beef tallow
+  slug: beef-tallow
+
+classification:
+  curse_type: fat
+  material_type: Animal rendered fat
+  material_type_slug: animal-rendered-fat
+
+description:
+  summary: null
+  notes: null
+
+sensory:
+  tags: []
+
+function:
+  tags: []
+
+attributes: []
+
+scores:
+  curse_score: null
+  culinary_potential: null
+
+safety:
+  allergens: []
+  dietary_flags: []
+  ingredient_flags: []
+  notes: null
+
+relationships:
+  related_curse_ids: []
+
+editorial:
+  catalog_status: active
+  added: 2026-08-20
+  updated: 2026-08-20

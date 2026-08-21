@@ -117,7 +117,7 @@ const graveyard = [
   {id:'POD-002', name:'Reserved Plot', cause:'Future failures deserve permanent records: what was attempted, what failed, whether the concept or execution died, and what should not be repeated.', tag:'Plot available'}
 ];
 
-let state = { view:'archive', slug:null, filter:'ALL', curseMaterialType:'all', curseSearch:'', curseSort:'name', curseTag:'all' };
+let state = { view:'archive', slug:null, filter:'ALL', curseType:'liquid', curseMaterialType:'all', curseSearch:'', curseSort:'name', curseTag:'all' };
 
 function esc(s=''){ return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m])); }
 function statusClass(s){ return s==='Locked'?'locked':s==='Peer Review'?'review':''; }
@@ -172,9 +172,25 @@ function recordRow(c){ return `<article class="record" data-record="${c.slug}" t
 function stageTrack(){ return `<div class="stage-track">${STATUS.map(([n,note],i)=>`<div class="stage internal" data-note="${esc(note)}"><div class="stage-num">0${i+1}</div><div class="stage-name">${esc(n)}</div></div>`).join('')}</div>`; }
 
 
+function curseTypes(){
+ const declared=Array.isArray(curseIndexMeta?.curse_types)?curseIndexMeta.curse_types:[];
+ if(declared.length) return declared;
+ const by=new Map();
+ curses.forEach(c=>{
+   const id=c.classification.curse_type;
+   if(!by.has(id)) by.set(id,{id,label:id.toUpperCase(),record_count:0});
+   by.get(id).record_count++;
+ });
+ return [...by.values()];
+}
+
+function recordsForCurseType(type=state.curseType){
+ return curses.filter(c=>c.classification.curse_type===type);
+}
+
 function materialTypes(){
  const by = new Map();
- curses.forEach(c=>{
+ recordsForCurseType().forEach(c=>{
    const k=c.classification.material_type_slug;
    if(!by.has(k)) by.set(k,{slug:k,label:c.classification.material_type,count:0});
    by.get(k).count++;
@@ -184,7 +200,7 @@ function materialTypes(){
 
 function curseTags(){
  const set=new Set();
- curses.forEach(c=>{
+ recordsForCurseType().forEach(c=>{
    [...(c.sensory?.tags||[]), ...(c.function?.tags||[]), ...(c.attributes||[])].forEach(t=>set.add(t));
  });
  return [...set].sort((a,b)=>a.localeCompare(b));
@@ -192,7 +208,7 @@ function curseTags(){
 
 function curseFiltered(){
  const q=(state.curseSearch||'').trim().toLowerCase();
- let list=curses.filter(c=>c.classification.curse_type==='liquid');
+ let list=recordsForCurseType();
  if(state.curseMaterialType!=='all') list=list.filter(c=>c.classification.material_type_slug===state.curseMaterialType);
  if(q) list=list.filter(c=>`${c.identity.name} ${c.classification.material_type}`.toLowerCase().includes(q));
  if(state.curseTag!=='all'){
@@ -231,8 +247,12 @@ function curseResultsHtml(){
 function cursePage(){
  const types=materialTypes();
  const tags=curseTags();
+ const curseTypeDefs=curseTypes();
+ const activeType=curseTypeDefs.find(t=>t.id===state.curseType)||curseTypeDefs[0]||{id:'liquid',label:'LIQUID',record_count:0};
+ const activeTypeCount=recordsForCurseType(activeType.id).length;
  const selected=types.find(t=>t.slug===state.curseMaterialType);
  const visible=curseFiltered();
+ const searchPlaceholder=state.curseType==='fat'?'duck fat, sardine oil…':'fish sauce, hot-dog water…';
  return shell(`<div class="page">
    <section class="curse-hero">
      <div class="eyebrow">Reference archive / ideation materials / evidence boundary enforced</div>
@@ -244,25 +264,25 @@ function cursePage(){
    <section class="section">
      <div class="section-head">
        <div><div class="eyebrow">Taxonomy / 01</div><h2 class="section-title">Browse the problem space</h2></div>
-       <div class="section-note">Tier 1 is deliberately boring for now: LIQUID is the only implemented curse type. The architecture is ready for additional material classes without exposing empty sections.</div>
+       <div class="section-note">LIQUID and FAT are implemented. Tier 1 describes the relevant cocktail-design behavior rather than strict room-temperature phase: an oil belongs under FAT because the lipid phase is the intervention.</div>
      </div>
 
      <div class="curse-browser">
        <aside class="curse-taxonomy">
          <div class="taxonomy-block">
            <div class="field-label">Curse type</div>
-           <button class="taxonomy-root active" type="button"><span>LIQUID</span><strong>${curses.length}</strong></button>
+           ${curseTypeDefs.map(t=>`<button class="taxonomy-root ${state.curseType===t.id?'active':''}" data-curse-type="${esc(t.id)}" type="button"><span>${esc(t.label)}</span><strong>${t.record_count??recordsForCurseType(t.id).length}</strong></button>`).join('')}
          </div>
          <div class="taxonomy-block">
-           <div class="field-label">Material type</div>
-           <button class="taxonomy-item ${state.curseMaterialType==='all'?'active':''}" data-material-type="all" type="button"><span>All liquid materials</span><strong>${curses.length}</strong></button>
+           <div class="field-label">Material type / ${esc(activeType.label)}</div>
+           <button class="taxonomy-item ${state.curseMaterialType==='all'?'active':''}" data-material-type="all" type="button"><span>All ${esc(activeType.label.toLowerCase())} materials</span><strong>${activeTypeCount}</strong></button>
            ${types.map(t=>`<button class="taxonomy-item ${state.curseMaterialType===t.slug?'active':''}" data-material-type="${esc(t.slug)}" type="button"><span>${esc(t.label)}</span><strong>${t.count}</strong></button>`).join('')}
          </div>
        </aside>
 
        <div class="curse-results">
          <div class="curse-tools">
-           <label class="curse-search"><span class="field-label">Search materials</span><input id="curse-search" type="search" autocomplete="off" placeholder="fish sauce, hot-dog water…" value="${esc(state.curseSearch)}"></label>
+           <label class="curse-search"><span class="field-label">Search ${esc(activeType.label.toLowerCase())} materials</span><input id="curse-search" type="search" autocomplete="off" placeholder="${esc(searchPlaceholder)}" value="${esc(state.curseSearch)}"></label>
            <label><span class="field-label">Sort</span><select id="curse-sort">
              <option value="name" ${state.curseSort==='name'?'selected':''}>Alphabetical</option>
              <option value="curse_score" ${state.curseSort==='curse_score'?'selected':''}>Curse score ↓</option>
@@ -275,7 +295,7 @@ function cursePage(){
          </div>
 
          <div class="curse-results-head">
-           <div><strong id="curse-result-count">${visible.length}</strong> materials${selected?` / ${esc(selected.label)}`:''}</div>
+           <div><strong id="curse-result-count">${visible.length}</strong> ${esc(activeType.label.toLowerCase())} materials${selected?` / ${esc(selected.label)}`:''}</div>
            <div>${tags.length?'Tag metadata available.':'Seed records intentionally contain no invented tag metadata.'}</div>
          </div>
          <div class="curse-list-head"><span>ID</span><span>Specific curse</span><span>Material type</span><span>Curse</span><span>Potential</span></div>
@@ -316,7 +336,7 @@ function curseDetailPage(slug){
    <section class="curse-detail-grid">
      <div class="curse-detail-main">
        <div class="eyebrow">Classification</div>
-       <div class="curse-path"><span>LIQUID</span><b>→</b><span>${esc(c.classification.material_type)}</span><b>→</b><strong>${esc(c.identity.name)}</strong></div>
+       <div class="curse-path"><span>${esc(c.classification.curse_type.toUpperCase())}</span><b>→</b><span>${esc(c.classification.material_type)}</span><b>→</b><strong>${esc(c.identity.name)}</strong></div>
 
        <div class="metadata-section"><div class="field-label">Sensory profile</div>${displayTags(c.sensory?.tags||[])}</div>
        <div class="metadata-section"><div class="field-label">Possible functions</div>${displayTags(c.function?.tags||[])}</div>
@@ -417,6 +437,13 @@ function bind(){
  document.querySelectorAll('[data-go]').forEach(el=>el.addEventListener('click',()=>go(el.dataset.go)));
  document.querySelectorAll('[data-record]').forEach(el=>{ const f=()=>go('record',el.dataset.record); el.addEventListener('click',f); el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')f();}); });
  bindCurseRows();
+ document.querySelectorAll('[data-curse-type]').forEach(el=>el.addEventListener('click',()=>{
+   state.curseType=el.dataset.curseType;
+   state.curseMaterialType='all';
+   state.curseSearch='';
+   state.curseTag='all';
+   render();
+ }));
  document.querySelectorAll('[data-material-type]').forEach(el=>el.addEventListener('click',()=>{state.curseMaterialType=el.dataset.materialType;render();}));
  const curseSearch=document.getElementById('curse-search');
  if(curseSearch) curseSearch.addEventListener('input',e=>{state.curseSearch=e.target.value;updateCurseResults();});
@@ -431,7 +458,7 @@ function routeFromPath(){
  const p=location.pathname.split('/').filter(Boolean);
  if(!p.length){state.view='archive';state.slug=null;return;}
  if(p[0]==='cocktails'&&p[1]){state.view='record';state.slug=p[1];return;}
- if(p[0]==='curses'&&p[1]){state.view='curse-record';state.slug=p[1];return;}
+ if(p[0]==='curses'&&p[1]){state.view='curse-record';state.slug=p[1];const c=curses.find(x=>x.identity.slug===p[1]);if(c) state.curseType=c.classification.curse_type;return;}
  if(p[0]==='curses'){state.view='curses';state.slug=null;return;}
  if(['status','panel','graveyard','submit'].includes(p[0])){state.view=p[0];state.slug=null;return;}
  state.view='archive'; state.slug=null;
