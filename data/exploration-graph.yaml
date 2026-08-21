@@ -1,0 +1,1769 @@
+meta:
+  version: 5
+  revision: 0
+  status: trusted-baseline
+  description: FirstBuild Exploration Graph. Domains are canonical taxonomy; Need, Approach, and Evidence nodes contain trusted organizational knowledge.
+  updatedAt: null
+  seedImport: firstbuild-archive-brain-dump-v1
+  seedImportNotes: Initial archival import contains only classifications supported by the supplied archive titles/context. Ambiguous records are intentionally omitted.
+  seedOmissions:
+  - Accessible Freeze Drying
+  - Homemade Protein Bars
+  - What would you do if you didn't have to drive your car?
+  - Make your own flakey salt
+  seedImports:
+  - id: firstbuild-google-drive-additions-v1
+    nodes:
+    - forge-heated-ice-press
+    - automatic-bourbon-liquor-dispenser
+    - home-beer-brewing-system
+    - shabbos-keeper
+    - gobox-home-delivery-system
+    - monogram-hearth-pizza-oven
+    - prisma-cold-brew
+    - copia-fruit-saver
+    - arden-disposable-aluminum-foil-drip-trays
+    - argentinian-grill
+    - solitary-bee-house
+    - poptart-trophy
+    - tactile-sticker-kit
+    - self-rinsing-rice-cooker
+    edges:
+    - rel-forge-heated-ice-press--opal-nugget-ice-maker
+    - rel-monogram-hearth-pizza-oven--torch
+    - rel-prisma-cold-brew--automatic-french-press
+    - rel-arden-disposable-aluminum-foil-drip-trays--arden-indoor-smoker
+    - rel-argentinian-grill--torch
+    - rel-solitary-bee-house--dwell
+    - rel-tactile-sticker-kit--talking-laundry-module
+    - rel-tactile-sticker-kit--universal-knobs-for-cooking
+  - id: firstbuild-google-drive-additions-v2
+    nodes:
+    - smart-flower-vase
+    - coffee-grinder-silencer
+    - dish-dyno
+  - id: canonical-domain-expansion-v1
+    domains:
+    - small-appliances
+    - recreational-living
+    nodeDomainAdds:
+      small-appliances:
+      - opal-nugget-ice-maker
+      - mella-mushroom-fruiting-chamber
+      - sourdough-sidekick
+      - automatic-knife-sharpener
+      - smart-proofing-chamber
+      - fortune-cookie-maker
+      - instant-instant-coffee-maker
+      - automatic-tortilla-maker
+      - latte-art-bot
+      - opal-descaling-side-tank
+      - automatic-french-press
+      - taffy-puller
+      - power-lid
+      - doug
+      - automatic-egg-maker-and-peeler
+      - mella-mini
+      - water-bottle-sanitizer
+      - food-dehydrator-grinder
+      - tofu-maker
+      - auto-spice-sorter
+      - croissant-dough-laminator
+      - cosmetics-medicine-fridge
+      - forge-heated-ice-press
+      - automatic-bourbon-liquor-dispenser
+      - home-beer-brewing-system
+      - monogram-hearth-pizza-oven
+      - prisma-cold-brew
+      - copia-fruit-saver
+      - self-rinsing-rice-cooker
+      - coffee-grinder-silencer
+      recreational-living:
+      - overlanding-camping-thermal-management-system
+      food-storage-preservation:
+      - cosmetics-medicine-fridge
+  - id: itchy-scratchy-pilot-curation-v1
+    edges:
+    - rel-overlanding-camping-thermal-management-system--point-of-use-water-heater-with-switching-valve
+    - rel-smart-flower-vase--smart-succulent-watering-system
+    - rel-fabric-shredder-and-recycler--fabric-pattern-cutter
+    - rel-digital-dishwasher-display--smarthq-carelink
+    - rel-universal-knobs-for-cooking--paragon-induction-cooktop
+    - rel-adjustable-temp-in-oven-proof-modes--steam-assist-for-baking
+    - rel-coffee-grinder-silencer--automatic-french-press
+    - rel-coffee-grinder-silencer--zennel
+    - rel-charcoal-or-firewood-maker--argentinian-grill
+    - rel-forge-heated-ice-press--automatic-bourbon-liquor-dispenser
+    - rel-smart-flower-vase--copia-fruit-saver
+    - rel-dirty-gym-clothes--uv-sanitization-towel-rack
+    - rel-dirty-gym-clothes--scent-booster-box
+    nodeDomainAdds:
+      clothing-care:
+      - uv-sanitization-towel-rack
+      small-appliances:
+      - smart-flower-vase
+      - smart-succulent-watering-system
+    nodeDomainRemoves:
+      dish-care:
+      - self-rinsing-rice-cooker
+      water-heating-treatment:
+      - power-lid
+  - id: strategic-context-expansion-v1
+    domains:
+    - enterprise-operations
+    - outdoor-recreation
+    nodes:
+    - steady-scope
+    nodeDomainAdds:
+      enterprise-operations:
+      - raspberry-pi-vision-system
+    nodeFieldSets:
+      raspberry-pi-vision-system:
+        approachKind: technology
+        strategicContext: gea-internal
+        summary: Low-cost, flexible Raspberry Pi-based vision system for supplementing manufacturing processes at GEA; originated in a Manufacturing team hackathon hosted at FirstBuild.
+domains:
+- id: food-storage-preservation
+  title: Food Storage & Preservation
+  description: Storage, preservation, holding, cooling, freezing, and temperature maintenance of food and ingredients.
+  examples:
+  - refrigerators
+  - freezers
+  - warming drawers
+- id: cooking
+  title: Cooking
+  description: Thermal preparation and transformation of food.
+  examples:
+  - ranges
+  - cooktops
+  - wall ovens
+  - microwaves
+  - Advantium
+  - indoor smokers
+  - toasters
+- id: ice-making
+  title: Ice Making
+  description: Production, handling, storage, and dispensing of ice.
+  examples:
+  - refrigerator ice makers
+  - countertop ice makers
+  - Opal
+- id: indoor-air-climate
+  title: Indoor Air & Climate
+  description: Ventilation, filtration, humidity management, and thermal conditioning of indoor environments.
+  examples:
+  - ventilation
+  - hoods
+  - dehumidifiers
+  - air purifiers
+  - HVAC
+- id: waste-handling
+  title: Waste Handling
+  description: Collection, reduction, processing, and disposal of household food and solid waste.
+  examples:
+  - garbage disposals
+  - trash compactors
+- id: food-preparation
+  title: Food Preparation
+  description: Nonthermal preparation, mixing, blending, processing, and handling of food before or apart from cooking.
+  examples:
+  - stand mixers
+  - blenders
+  - immersion blenders
+  - food processors
+- id: beverage
+  title: Beverage
+  description: Preparation, dispensing, conditioning, and service of beverages.
+  examples:
+  - coffee makers
+  - espresso machines
+- id: clothing-care
+  title: Clothing Care
+  description: Washing, drying, refreshing, steaming, and other care of garments and textiles.
+  examples:
+  - washers
+  - dryers
+  - washer-dryer combos
+  - steam closets
+  - commercial laundry
+- id: water-heating-treatment
+  title: Water Heating & Treatment
+  description: Heating, filtration, softening, conditioning, and quality management of household water.
+  examples:
+  - water heaters
+  - water filtration
+  - water softeners
+- id: dish-care
+  title: Dish Care
+  description: Cleaning, sanitizing, drying, loading, and care of dishes, cookware, glassware, and utensils.
+  examples:
+  - dishwashers
+  - drying
+  - sanitization
+  - detergent dosing
+- id: small-appliances
+  title: Small Appliances
+  description: Compact countertop, portable, and handheld appliance contexts where size, portability, storage, power, interaction, and countertop use materially shape the solution.
+  examples:
+  - coffee makers
+  - blenders
+  - immersion blenders
+  - countertop ice makers
+  - compact refrigerators
+- id: recreational-living
+  title: Recreational Living
+  description: Mobile and temporary living architectures and infrastructure associated with RVs, trailers, camper vans, overlanding, camping, and similar vehicle-based living contexts.
+  examples:
+  - RVs
+  - travel trailers
+  - camper vans
+  - overlanding vehicles
+  - camping systems
+- id: enterprise-operations
+  title: Enterprise Operations
+  description: Internal tools, systems, processes, capabilities, and infrastructure used to design, manufacture, test, operate, service, or improve GEA and its work.
+  examples:
+  - manufacturing automation
+  - quality systems
+  - engineering tools
+  - service tools
+  - internal workflows
+- id: outdoor-recreation
+  title: Outdoor Recreation
+  description: Products, equipment, systems, and experiences supporting outdoor recreational activities such as boating, fishing, camping, hunting, cycling, and similar pursuits.
+  examples:
+  - boating
+  - fishing
+  - camping equipment
+  - cycling
+  - hunting
+nodes:
+- id: opal-nugget-ice-maker
+  title: Opal Nugget Ice Maker
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - ice-making
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: mella-mushroom-fruiting-chamber
+  title: Mella Mushroom Fruiting Chamber
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: arden-indoor-smoker
+  title: Arden Indoor Smoker
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - cooking
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: sourdough-sidekick
+  title: Sourdough Sidekick
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: paragon-induction-cooktop
+  title: Paragon Induction Cooktop
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - cooking
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: home-assistant-adapter
+  title: Home Assistant Adapter
+  type: approach
+  depth: null
+  status: productized
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild Launched Products
+- id: overlanding-camping-thermal-management-system
+  title: Overlanding/Camping Thermal Management System
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - indoor-air-climate
+  - water-heating-treatment
+  - recreational-living
+  summary: Centralized hub for overlanding or camping thermal management, including HVAC and water heating.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: dirty-gym-clothes
+  title: Dirty Gym Clothes
+  type: need
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: How to handle sweaty or gross clothing between wearing and washing.
+  tags: []
+  contributors: []
+  artifacts: []
+  needFraming: problem
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: automatic-knife-sharpener
+  title: Automatic Knife Sharpener
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: smart-proofing-chamber
+  title: Smart Proofing Chamber
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: laundry-bot
+  title: Laundry Bot
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: Detects when clean laundry is idle versus when it has been emptied.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: digital-dishwasher-display
+  title: Digital Dishwasher Display
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - dish-care
+  summary: Dishwasher display concept using the same platform as Laundry Bot.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: fortune-cookie-maker
+  title: Fortune Cookie Maker
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - cooking
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: instant-instant-coffee-maker
+  title: Instant Instant Coffee Maker
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: Automated instant coffee maker, described as a Baby Brezza-like appliance for instant coffee.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: scent-booster-box
+  title: Scent Booster Box
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: Automatic dispenser for scent boosters or beads in laundry.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: kitchen-air-filtration
+  title: Kitchen Air Filtration
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - indoor-air-climate
+  - cooking
+  summary: Combined light fixture and air purification concept.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: smart-succulent-watering-system
+  title: Smart Succulent Watering System
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: automatic-tortilla-maker
+  title: Automatic Tortilla Maker
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - cooking
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: latte-art-bot
+  title: Latte Art Bot
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: chest-freezer-ice-bath-polar-plunge
+  title: Chest Freezer Ice Bath/Polar Plunge
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: Chest-freezer-based ice bath or polar plunge.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: torch
+  title: Torch
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  summary: Pizza-oven-derived approach for cooking steaks.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: opal-descaling-side-tank
+  title: Opal Descaling Side Tank
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - ice-making
+  - small-appliances
+  summary: Side-tank concept for Opal descaling.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: automatic-french-press
+  title: Automatic French Press
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: automatic-paintbrush-cleaner
+  title: Automatic Paintbrush Cleaner
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: taffy-puller
+  title: Taffy Puller
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: power-lid
+  title: Power Lid
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  - small-appliances
+  summary: Supplementary electrical power for boiling water.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: zennel
+  title: Zennel
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: Sound-proof dog kennel.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: dwell
+  title: Dwell
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: Smart bat house.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: lunabot
+  title: LunaBot
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: Programmable robot pet for kids.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: talking-laundry-module
+  title: Talking Laundry Module
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: Laundry appliance accessibility module for people with vision impairment.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: cavern
+  title: Cavern
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-storage-preservation
+  summary: Dry-aging chamber.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: doug
+  title: Doug
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: Smart sourdough starter lid that detects starter growth and notifies when feeding is needed.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: FirstBuild 2-Minute Prototypes
+- id: universal-knobs-for-cooking
+  title: Universal Knobs for Cooking
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: automatic-egg-maker-and-peeler
+  title: Automatic Egg Maker & Peeler
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - cooking
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: car-cleaning-robot
+  title: Car Cleaning Robot
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: mella-mini
+  title: Mella Mini
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: charcoal-or-firewood-maker
+  title: Charcoal or Firewood Maker
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: water-bottle-sanitizer
+  title: Water Bottle Sanitizer
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: fabric-shredder-and-recycler
+  title: Fabric Shredder & Recycler
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: food-dehydrator-grinder
+  title: Food Dehydrator / Grinder
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-storage-preservation
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: tofu-maker
+  title: Tofu Maker
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: shared-laundry-security-lock
+  title: Shared Laundry Security Lock
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: adjustable-temp-in-oven-proof-modes
+  title: Adjustable Temp in Oven Proof Modes
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  - food-preparation
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: auto-spice-sorter
+  title: Auto Spice Sorter
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: 2-in-1-composter-biogas-collector
+  title: 2-in-1 Composter / Biogas Collector
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - waste-handling
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: fabric-pattern-cutter
+  title: Fabric Pattern Cutter
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: smarthq-carelink
+  title: SmartHQ CareLink
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: Uses sign-of-life signals from home appliance interactions for senior monitoring.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: wireless-thermometer-for-bread-proofing
+  title: Wireless Thermometer for Bread Proofing
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: croissant-dough-laminator
+  title: Croissant Dough Laminator
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-preparation
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: ceiling-fan-air-purifier
+  title: Ceiling Fan Air Purifier
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - indoor-air-climate
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: point-of-use-water-heater-with-switching-valve
+  title: Point-of-Use Water Heater with Switching Valve
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - water-heating-treatment
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: cosmetics-medicine-fridge
+  title: Cosmetics / Medicine Fridge
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - small-appliances
+  - food-storage-preservation
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: steam-assist-for-baking
+  title: Steam Assist for Baking
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: uv-sanitization-towel-rack
+  title: UV Sanitization Towel Rack
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - clothing-care
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: all-in-one-sleep-environment-control
+  title: All-in-One Sleep Environment Control
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - indoor-air-climate
+  summary: Integrated sleep-environment control including HVAC and air purification.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: conceptual
+  approachOrigin: firstbuild
+  archiveCollection: Concepts Backlog
+- id: sourdough-sidekick-silicone-grip-band
+  title: Sourdough Sidekick Silicone Grip Band
+  type: approach
+  depth: null
+  status: active
+  domains:
+  - food-preparation
+  summary: Silicone grip band for the Sourdough Sidekick glass crock.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: Current Projects
+- id: raspberry-pi-vision-system
+  title: Raspberry Pi Vision System
+  type: approach
+  depth: null
+  status: active
+  domains:
+  - enterprise-operations
+  strategicContext: gea-internal
+  summary: Low-cost, flexible Raspberry Pi-based vision system for supplementing manufacturing processes at GEA; originated in a Manufacturing team hackathon hosted at FirstBuild.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: technology
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: Current Projects
+  aliases:
+  - Rapberry Pi Vision System
+- id: dehydrated-starter
+  title: Dehydrated Starter
+  type: approach
+  depth: null
+  status: active
+  domains:
+  - food-preparation
+  - food-storage-preservation
+  summary: Dehydrated starter for Sourdough Sidekick.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: unknown
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: Current Projects
+- id: forge-heated-ice-press
+  title: Forge Heated Ice Press
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - ice-making
+  - beverage
+  - small-appliances
+  summary: Heated ice press launched by FirstBuild and later relaunched under the Monogram brand.
+  tags:
+  - Monogram
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: automatic-bourbon-liquor-dispenser
+  title: Automatic Bourbon/Liquor Dispenser
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: home-beer-brewing-system
+  title: Home Beer Brewing System
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: Home beer brewing system developed by FirstBuild Mexico.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: shabbos-keeper
+  title: Shabbos Keeper
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: gobox-home-delivery-system
+  title: GoBox Home Delivery System
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: A secure home-delivery receiving system with three automatically locking compartments, usable indoors or outdoors where delivery personnel can access it.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: monogram-hearth-pizza-oven
+  title: Monogram Hearth Pizza Oven
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: prisma-cold-brew
+  title: Prisma Cold Brew
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: Cold-brew coffee maker that expedited extraction by drawing a vacuum.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: copia-fruit-saver
+  title: Copia Fruit Saver
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - food-storage-preservation
+  - small-appliances
+  summary: A food-preservation device that used vacuum evacuation to remove gases associated with accelerated fruit aging and spoilage, particularly for avocados.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: arden-disposable-aluminum-foil-drip-trays
+  title: Arden Disposable Aluminum Foil Drip Trays
+  type: approach
+  depth: null
+  status: productized
+  domains:
+  - cooking
+  summary: Disposable aluminum-foil drip trays for the Arden Indoor Smoker.
+  tags:
+  - Arden
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: launched
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: argentinian-grill
+  title: Argentinian Grill
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  summary: Residential Argentinian-style grill concept.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: solitary-bee-house
+  title: Solitary Bee House
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: poptart-trophy
+  title: PopTart Trophy
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  summary: College football trophy for the Pop-Tarts Bowl with a fully functional toaster inside the polished chrome football atop the trophy assembly.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: other
+  approachMaturity: prototyped
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: tactile-sticker-kit
+  title: Tactile Sticker Kit
+  type: approach
+  depth: null
+  status: unknown
+  domains: []
+  summary: A kit of universal Braille/tactile stickers that can be applied to common appliance buttons to improve accessibility.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: self-rinsing-rice-cooker
+  title: Self-Rinsing Rice Cooker
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - cooking
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: smart-flower-vase
+  title: Smart Flower Vase
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - small-appliances
+  summary: Smart vase intended to keep cut flowers alive and vibrant longer.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: coffee-grinder-silencer
+  title: Coffee Grinder Silencer
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - beverage
+  - small-appliances
+  summary: ''
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: dish-dyno
+  title: Dish Dyno
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - dish-care
+  summary: Water-pressure-powered rotary cleaning attachment for kitchen faucets.
+  tags: []
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: 1B Google Drive
+- id: steady-scope
+  title: Steady Scope
+  type: approach
+  depth: null
+  status: unknown
+  domains:
+  - outdoor-recreation
+  strategicContext: external
+  summary: Gyro-stabilized, motorized fish-finding transducer mount designed to hold a fixed forward heading for live sonar systems such as Garmin LiveScope regardless of boat movement or wind.
+  tags:
+  - fishing
+  - boating
+  - live sonar
+  - stabilization
+  contributors: []
+  artifacts: []
+  approachKind: product
+  approachMaturity: unknown
+  approachOrigin: firstbuild
+  archiveCollection: Recovered FirstBuild work
+edges:
+- id: rel-opal-nugget-ice-maker--opal-descaling-side-tank
+  source: opal-nugget-ice-maker
+  target: opal-descaling-side-tank
+  label: product maintenance adjacency
+  rationale: The side-tank concept directly concerns maintenance of the Opal platform.
+  strength: 5
+  provenance: initial-curation
+- id: rel-mella-mushroom-fruiting-chamber--mella-mini
+  source: mella-mushroom-fruiting-chamber
+  target: mella-mini
+  label: shared product architecture
+  rationale: Mella Mini is an explicitly related form-factor variant of Mella.
+  strength: 5
+  provenance: initial-curation
+- id: rel-sourdough-sidekick--doug
+  source: sourdough-sidekick
+  target: doug
+  label: sourdough workflow
+  rationale: Both approaches support managing a sourdough starter.
+  strength: 5
+  provenance: initial-curation
+- id: rel-sourdough-sidekick--dehydrated-starter
+  source: sourdough-sidekick
+  target: dehydrated-starter
+  label: product ecosystem
+  rationale: Dehydrated Starter is an explicitly related Sourdough Sidekick extension.
+  strength: 5
+  provenance: initial-curation
+- id: rel-sourdough-sidekick--sourdough-sidekick-silicone-grip-ba
+  source: sourdough-sidekick
+  target: sourdough-sidekick-silicone-grip-band
+  label: product ecosystem
+  rationale: The grip band is an accessory for the Sourdough Sidekick crock.
+  strength: 5
+  provenance: initial-curation
+- id: rel-sourdough-sidekick--smart-proofing-chamber
+  source: sourdough-sidekick
+  target: smart-proofing-chamber
+  label: fermentation workflow
+  rationale: Both approaches concern controlled sourdough or bread fermentation workflows.
+  strength: 4
+  provenance: initial-curation
+- id: rel-doug--smart-proofing-chamber
+  source: doug
+  target: smart-proofing-chamber
+  label: fermentation monitoring
+  rationale: Both approaches sense or manage fermentation state.
+  strength: 4
+  provenance: initial-curation
+- id: rel-smart-proofing-chamber--wireless-thermometer-for-bread-proo
+  source: smart-proofing-chamber
+  target: wireless-thermometer-for-bread-proofing
+  label: proofing sensing and control
+  rationale: Bread-proofing temperature sensing is directly relevant to a controlled proofing chamber.
+  strength: 5
+  provenance: initial-curation
+- id: rel-smart-proofing-chamber--adjustable-temp-in-oven-proof-modes
+  source: smart-proofing-chamber
+  target: adjustable-temp-in-oven-proof-modes
+  label: controlled proofing environment
+  rationale: Both approaches concern controlling proofing temperature.
+  strength: 5
+  provenance: initial-curation
+- id: rel-smart-proofing-chamber--cavern
+  source: smart-proofing-chamber
+  target: cavern
+  label: controlled chamber conditions
+  rationale: Both approaches use controlled environmental chambers for food processes.
+  strength: 3
+  provenance: initial-curation
+- id: rel-mella-mushroom-fruiting-chamber--cavern
+  source: mella-mushroom-fruiting-chamber
+  target: cavern
+  label: controlled chamber conditions
+  rationale: Both approaches rely on controlled environmental chambers for biological or food processes.
+  strength: 3
+  provenance: initial-curation
+- id: rel-mella-mushroom-fruiting-chamber--smart-succulent-watering-system
+  source: mella-mushroom-fruiting-chamber
+  target: smart-succulent-watering-system
+  label: controlled growth environment
+  rationale: Both approaches manage environmental conditions for living organisms.
+  strength: 3
+  provenance: initial-curation
+- id: rel-cavern--cosmetics-medicine-fridge
+  source: cavern
+  target: cosmetics-medicine-fridge
+  label: small controlled storage
+  rationale: Both approaches create compact controlled storage environments.
+  strength: 3
+  provenance: initial-curation
+- id: rel-dehydrated-starter--food-dehydrator-grinder
+  source: dehydrated-starter
+  target: food-dehydrator-grinder
+  label: dehydration process
+  rationale: Dehydrating starter and dehydrating food share moisture-removal considerations.
+  strength: 4
+  provenance: initial-curation
+- id: rel-laundry-bot--digital-dishwasher-display
+  source: laundry-bot
+  target: digital-dishwasher-display
+  label: shared appliance-state platform
+  rationale: The dishwasher concept was identified as using the same platform as Laundry Bot.
+  strength: 5
+  provenance: initial-curation
+- id: rel-laundry-bot--smarthq-carelink
+  source: laundry-bot
+  target: smarthq-carelink
+  label: appliance state inference
+  rationale: Both approaches infer meaningful information from appliance activity or state.
+  strength: 4
+  provenance: initial-curation
+- id: rel-smarthq-carelink--home-assistant-adapter
+  source: smarthq-carelink
+  target: home-assistant-adapter
+  label: connected appliance data
+  rationale: Both approaches use connected-appliance data beyond the appliance itself.
+  strength: 4
+  provenance: initial-curation
+- id: rel-talking-laundry-module--universal-knobs-for-cooking
+  source: talking-laundry-module
+  target: universal-knobs-for-cooking
+  label: accessible appliance interaction
+  rationale: Both approaches concern more accessible interaction with appliance controls.
+  strength: 3
+  provenance: initial-curation
+- id: rel-kitchen-air-filtration--ceiling-fan-air-purifier
+  source: kitchen-air-filtration
+  target: ceiling-fan-air-purifier
+  label: fixture-integrated purification
+  rationale: Both concepts integrate air purification into another room fixture.
+  strength: 5
+  provenance: initial-curation
+- id: rel-kitchen-air-filtration--all-in-one-sleep-environment-contro
+  source: kitchen-air-filtration
+  target: all-in-one-sleep-environment-control
+  label: localized environmental control
+  rationale: Both approaches combine air-quality management with the surrounding room environment.
+  strength: 3
+  provenance: initial-curation
+- id: rel-overlanding-camping-thermal-managem--all-in-one-sleep-environment-contro
+  source: overlanding-camping-thermal-management-system
+  target: all-in-one-sleep-environment-control
+  label: integrated environmental control
+  rationale: Both approaches centralize multiple environmental-control functions.
+  strength: 4
+  provenance: initial-curation
+- id: rel-instant-instant-coffee-maker--automatic-french-press
+  source: instant-instant-coffee-maker
+  target: automatic-french-press
+  label: automated coffee preparation
+  rationale: Both approaches automate coffee preparation workflows.
+  strength: 4
+  provenance: initial-curation
+- id: rel-automatic-french-press--latte-art-bot
+  source: automatic-french-press
+  target: latte-art-bot
+  label: automated coffee workflow
+  rationale: Both approaches automate parts of a coffee-making and serving workflow.
+  strength: 3
+  provenance: initial-curation
+- id: rel-water-bottle-sanitizer--uv-sanitization-towel-rack
+  source: water-bottle-sanitizer
+  target: uv-sanitization-towel-rack
+  label: sanitization approach
+  rationale: Both concepts explore automated sanitization of frequently used household items.
+  strength: 3
+  provenance: initial-curation
+- id: rel-power-lid--point-of-use-water-heater-with-swit
+  source: power-lid
+  target: point-of-use-water-heater-with-switching-valve
+  label: localized water heating
+  rationale: Both approaches add localized electrical heating to water close to the point of use.
+  strength: 4
+  provenance: initial-curation
+- id: rel-arden-indoor-smoker--torch
+  source: arden-indoor-smoker
+  target: torch
+  label: high-heat meat cooking
+  rationale: Both approaches explore specialized indoor cooking methods for meat.
+  strength: 3
+  provenance: initial-curation
+- id: rel-automatic-tortilla-maker--fortune-cookie-maker
+  source: automatic-tortilla-maker
+  target: fortune-cookie-maker
+  label: automated formed-food production
+  rationale: Both approaches automate forming and cooking thin food products.
+  strength: 3
+  provenance: initial-curation
+- id: rel-automatic-tortilla-maker--croissant-dough-laminator
+  source: automatic-tortilla-maker
+  target: croissant-dough-laminator
+  label: mechanized dough forming
+  rationale: Both approaches mechanize dough forming or flattening.
+  strength: 4
+  provenance: initial-curation
+- id: rel-croissant-dough-laminator--taffy-puller
+  source: croissant-dough-laminator
+  target: taffy-puller
+  label: repetitive food manipulation
+  rationale: Both approaches mechanize repetitive deformation of food materials.
+  strength: 3
+  provenance: initial-curation
+- id: rel-food-dehydrator-grinder--2-in-1-composter-biogas-collector
+  source: food-dehydrator-grinder
+  target: 2-in-1-composter-biogas-collector
+  label: food material processing
+  rationale: Both approaches process food materials and may share size-reduction or moisture-management considerations.
+  strength: 3
+  provenance: initial-curation
+- id: rel-forge-heated-ice-press--opal-nugget-ice-maker
+  source: forge-heated-ice-press
+  target: opal-nugget-ice-maker
+  label: ice experience adjacency
+  rationale: Both approaches operate in the consumer ice experience and may share ice handling, form, and presentation considerations.
+  strength: 4
+  provenance: initial-curation
+- id: rel-monogram-hearth-pizza-oven--torch
+  source: monogram-hearth-pizza-oven
+  target: torch
+  label: high-heat oven cooking
+  rationale: Both approaches explore specialized high-temperature oven architectures for pizza and meat cooking.
+  strength: 4
+  provenance: initial-curation
+- id: rel-prisma-cold-brew--automatic-french-press
+  source: prisma-cold-brew
+  target: automatic-french-press
+  label: coffee extraction methods
+  rationale: Both approaches automate or accelerate immersion-style coffee extraction workflows.
+  strength: 4
+  provenance: initial-curation
+- id: rel-arden-disposable-aluminum-foil-drip-trays--arden-indoor-smoker
+  source: arden-disposable-aluminum-foil-drip-trays
+  target: arden-indoor-smoker
+  label: product ecosystem
+  rationale: The disposable drip trays are directly associated with the Arden Indoor Smoker platform.
+  strength: 5
+  provenance: initial-curation
+- id: rel-argentinian-grill--torch
+  source: argentinian-grill
+  target: torch
+  label: high-heat meat cooking
+  rationale: Both approaches explore residential methods for intense, specialized meat cooking.
+  strength: 3
+  provenance: initial-curation
+- id: rel-solitary-bee-house--dwell
+  source: solitary-bee-house
+  target: dwell
+  label: residential wildlife habitat
+  rationale: Both approaches create purpose-built residential habitat for beneficial or desirable wildlife.
+  strength: 4
+  provenance: initial-curation
+- id: rel-tactile-sticker-kit--talking-laundry-module
+  source: tactile-sticker-kit
+  target: talking-laundry-module
+  label: accessible appliance interaction
+  rationale: Both approaches improve appliance accessibility for people with visual impairments.
+  strength: 5
+  provenance: initial-curation
+- id: rel-tactile-sticker-kit--universal-knobs-for-cooking
+  source: tactile-sticker-kit
+  target: universal-knobs-for-cooking
+  label: universal appliance controls
+  rationale: Both approaches explore retrofit or universal control interfaces that can improve appliance usability across products.
+  strength: 4
+  provenance: initial-curation
+- id: rel-overlanding-camping-thermal-management-system--point-of-use-water-heater-with-switching-valve
+  source: overlanding-camping-thermal-management-system
+  target: point-of-use-water-heater-with-switching-valve
+  label: integrated water-heating architecture
+  rationale: Water heating is explicitly part of the centralized overlanding/camping thermal-management system architecture.
+  strength: 5
+  provenance: pilot-curation
+- id: rel-smart-flower-vase--smart-succulent-watering-system
+  source: smart-flower-vase
+  target: smart-succulent-watering-system
+  label: automated plant vitality
+  rationale: Both approaches manage water delivery to extend the vitality of living plant material.
+  strength: 5
+  provenance: pilot-curation
+- id: rel-fabric-shredder-and-recycler--fabric-pattern-cutter
+  source: fabric-shredder-and-recycler
+  target: fabric-pattern-cutter
+  label: textile material transformation
+  rationale: Both approaches manipulate fabric as a material input for downstream reuse or making.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-digital-dishwasher-display--smarthq-carelink
+  source: digital-dishwasher-display
+  target: smarthq-carelink
+  label: appliance-state interpretation
+  rationale: Both approaches derive useful information from appliance state or interaction signals.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-universal-knobs-for-cooking--paragon-induction-cooktop
+  source: universal-knobs-for-cooking
+  target: paragon-induction-cooktop
+  label: cooking control interaction
+  rationale: Both approaches concern how users control and interact with cooking appliances.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-adjustable-temp-in-oven-proof-modes--steam-assist-for-baking
+  source: adjustable-temp-in-oven-proof-modes
+  target: steam-assist-for-baking
+  label: bread-baking process control
+  rationale: Both approaches extend oven controls to better support bread-making processes.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-coffee-grinder-silencer--automatic-french-press
+  source: coffee-grinder-silencer
+  target: automatic-french-press
+  label: coffee preparation workflow
+  rationale: Grinding is directly upstream of automated French-press coffee preparation.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-coffee-grinder-silencer--zennel
+  source: coffee-grinder-silencer
+  target: zennel
+  label: acoustic isolation
+  rationale: Both approaches address unwanted sound through containment or acoustic isolation in very different application contexts.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-charcoal-or-firewood-maker--argentinian-grill
+  source: charcoal-or-firewood-maker
+  target: argentinian-grill
+  label: residential solid-fuel cooking
+  rationale: Fuel production is directly relevant to a residential grill architecture that uses charcoal or firewood.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-forge-heated-ice-press--automatic-bourbon-liquor-dispenser
+  source: forge-heated-ice-press
+  target: automatic-bourbon-liquor-dispenser
+  label: premium beverage service
+  rationale: Both approaches support premium spirit and cocktail preparation or presentation.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-smart-flower-vase--copia-fruit-saver
+  source: smart-flower-vase
+  target: copia-fruit-saver
+  label: extending biological freshness
+  rationale: Both approaches attempt to extend the useful life of perishable biological material by managing local conditions.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-dirty-gym-clothes--uv-sanitization-towel-rack
+  source: dirty-gym-clothes
+  target: uv-sanitization-towel-rack
+  label: between-use textile sanitation
+  rationale: The towel-rack approach is relevant to keeping damp or soiled textiles fresher between use and laundering.
+  strength: 4
+  provenance: pilot-curation
+- id: rel-dirty-gym-clothes--scent-booster-box
+  source: dirty-gym-clothes
+  target: scent-booster-box
+  label: garment freshness management
+  rationale: Both concern odor and freshness management in the clothing-care workflow.
+  strength: 3
+  provenance: pilot-curation

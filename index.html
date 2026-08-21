@@ -3,13 +3,281 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#dfe3e6" />
-  <meta name="description" content="PROOF OF CONCEPT — questionable beverages, empirically investigated." />
-  <title>PROOF OF CONCEPT</title>
-  <link rel="stylesheet" href="/styles.css" />
+  <meta name="theme-color" content="#000033" />
+  <meta name="description" content="FirstBuild Exploration Map proof of concept" />
+  <title>FirstBuild / Exploration Map</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div id="app"></div>
-  <script type="module" src="/app.js"></script>
+  <div id="app">
+    <header class="topbar">
+      <button id="brand-home" class="brand" aria-label="Return to exploration start">
+        <span class="brand-mark">FB</span>
+        <span class="brand-slash">/</span>
+        <span class="brand-title">EXPLORATION MAP</span>
+        <span class="poc-badge">POC</span>
+      </button>
+      <div id="explorer-search-wrap" class="search-wrap compact-search hidden">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="explorer-search" type="search" autocomplete="off" placeholder="Recenter on another topic…" />
+        <kbd>/</kbd>
+        <div id="explorer-search-results" class="search-results hidden"></div>
+      </div>
+      <div class="top-actions">
+        <button id="new-exploration" class="button button-quiet hidden">New exploration</button>
+        <button id="graph-admin" class="button button-quiet">Graph admin</button>
+        <button id="add-node" class="button button-primary">+ Add node</button>
+      </div>
+    </header>
+
+    <div class="demo-strip">
+      <span><strong>Trusted graph baseline.</strong> Illustrative seed data has been removed; only reviewed FirstBuild knowledge should be added from here.</span>
+      <div class="demo-actions"><span id="graph-status" class="graph-status">Graph: loading…</span><span id="ai-status" class="ai-status">AI: checking…</span></div>
+    </div>
+
+    <main id="landing" class="landing">
+      <section class="landing-hero">
+        <div class="landing-eyebrow">FIRSTBUILD EXPLORATION GRAPH</div>
+        <h1>What are you exploring?</h1>
+        <p>Start with a core domain, need, approach, or evidence record. We’ll show only the neighborhood that is practically relevant to it.</p>
+        <div class="hero-search-wrap">
+          <span class="hero-search-icon" aria-hidden="true">⌕</span>
+          <input id="landing-search" type="search" autocomplete="off" autofocus placeholder="Search the trusted Exploration Graph…" />
+          <div id="landing-search-results" class="landing-results hidden"></div>
+        </div>
+        <div class="starter-block">
+          <div id="starter-label" class="starter-label">RECENT / START HERE</div>
+          <div id="starter-chips" class="starter-chips"></div>
+        </div>
+      </section>
+
+      <section class="landing-explainer">
+        <div class="explainer-item"><strong>1</strong><span><b>Pick a seed.</b> Search the canonical graph instead of opening the whole network.</span></div>
+        <div class="explainer-item"><strong>2</strong><span><b>Follow practical relevance.</b> Known relationships appear as a local neighborhood.</span></div>
+        <div class="explainer-item"><strong>3</strong><span><b>Ask what connects, applies elsewhere, or is missing.</b> AI can surface relevant nodes, cross-domain applications, or plausible gaps without silently changing the graph.</span></div>
+      </section>
+    </main>
+
+    <main id="explorer" class="explorer hidden">
+      <aside class="control-panel">
+        <section class="panel-section seed-card">
+          <div class="section-label">CURRENT SEED</div>
+          <div id="seed-title" class="seed-title"></div>
+          <div id="seed-meta" class="seed-meta"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-label row-between"><span>NEIGHBORHOOD</span><span id="visible-count" class="count-label"></span></div>
+          <div class="segmented" role="group" aria-label="Relationship radius">
+            <button id="radius-1" data-radius="1">1st order</button>
+            <button id="radius-2" data-radius="2" class="active">2nd order</button>
+          </div>
+          <p class="panel-help">Expand individual nodes when you want to wander without recentering.</p>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-label row-between"><span>NODE TYPE</span><span class="filter-actions"><button id="types-all" class="mini-link">all</button><span>/</span><button id="types-none" class="mini-link">none</button></span></div>
+          <div id="type-filters" class="filter-list"></div>
+        </section>
+
+        <section class="panel-section">
+          <div class="section-label row-between"><span>EXPLORATION</span><span id="depth-value">0–5</span></div>
+          <label class="toggle-row"><input id="white-space-toggle" type="checkbox" /><span>Emphasize lightly explored nodes</span></label>
+        </section>
+
+        <section class="panel-section ai-card">
+          <div class="section-label">AI EXPLORATION</div>
+          <p>Use the model to surface useful links already in the graph, plausible applications in other domains, or gaps around the seed.</p>
+          <div class="segmented ai-mode" role="group" aria-label="AI suggestion mode">
+            <button id="ai-likely" data-mode="likely" class="active">Likely</button>
+            <button id="ai-stretch" data-mode="stretch">Stretch</button>
+          </div>
+          <div class="ai-actions">
+            <button id="suggest-ai" class="button button-outline full">Suggest connections</button>
+            <button id="suggest-applications" class="button button-outline full">Suggest applications</button>
+            <button id="suggest-missing" class="button button-outline full">Suggest what’s missing</button>
+          </div>
+          <div id="ai-note" class="ai-note">Suggestions stay temporary until you add them to the graph.</div>
+          <div id="suggestion-list" class="suggestion-list"></div>
+        </section>
+      </aside>
+
+      <section id="map-shell" class="map-shell" aria-label="Query-centered exploration map">
+        <svg id="map" role="application" aria-label="Interactive query-centered exploration map">
+          <defs>
+            <pattern id="grid-small" width="24" height="24" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="0.8" fill="currentColor" opacity="0.13"></circle>
+            </pattern>
+            <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.14"/>
+            </filter>
+          </defs>
+          <rect id="map-bg" x="-5000" y="-5000" width="10000" height="10000" fill="url(#grid-small)"></rect>
+          <g id="viewport">
+            <g id="edges"></g>
+            <g id="nodes"></g>
+          </g>
+        </svg>
+        <div class="map-head">
+          <div><span class="map-head-label">EXPLORING</span><strong id="map-head-title"></strong></div>
+          <div class="edge-legend"><span><i class="edge-swatch known"></i>known</span><span><i class="edge-swatch taxonomy"></i>domain membership</span><span><i class="edge-swatch suggested"></i>suggested link</span><span><i class="edge-swatch application"></i>suggested application</span><span><i class="node-swatch proposed"></i>proposed node</span></div>
+        </div>
+        <div class="map-tools">
+          <button id="zoom-in" title="Zoom in">+</button>
+          <button id="zoom-out" title="Zoom out">−</button>
+          <button id="fit-map" title="Fit neighborhood">⌂</button>
+        </div>
+        <div id="map-footer" class="map-footer"></div>
+      </section>
+
+      <aside id="detail-panel" class="detail-panel hidden" aria-live="polite">
+        <div id="detail-content"></div>
+      </aside>
+    </main>
+
+    <main id="admin" class="admin hidden">
+      <section class="admin-head">
+        <div>
+          <div class="landing-eyebrow">GRAPH ADMINISTRATION</div>
+          <h1>Exploration Graph</h1>
+          <p>Maintain canonical domains, exploration nodes, and practical-relevance connections. Normal editing happens here; YAML remains the readable import/export format.</p>
+        </div>
+        <div class="admin-head-actions">
+          <button id="admin-back" class="button button-quiet">← Back to map</button>
+          <button id="admin-logout" class="button button-outline">Log out</button>
+        </div>
+      </section>
+      <section class="admin-toolbar">
+        <div class="segmented admin-tabs" role="group" aria-label="Graph table">
+          <button id="admin-domains-tab" class="active">Domains</button>
+          <button id="admin-nodes-tab">Nodes</button>
+          <button id="admin-edges-tab">Connections</button>
+        </div>
+        <input id="admin-search" class="admin-search" type="search" placeholder="Filter graph records…" />
+        <div class="admin-actions">
+          <button id="admin-add-domain" class="button button-primary">+ Add domain</button>
+          <button id="admin-add" class="button button-primary hidden">+ Add node</button>
+          <button id="admin-add-edge" class="button button-outline hidden">+ Add connection</button>
+          <button id="admin-export" class="button button-outline">Export YAML</button>
+          <button id="admin-import" class="button button-outline">Import YAML</button>
+          <input id="admin-import-file" type="file" accept=".yaml,.yml,text/yaml,application/yaml" hidden />
+        </div>
+      </section>
+      <section class="admin-summary">
+        <strong id="admin-counts"></strong>
+        <span id="admin-save-state">No unsaved changes.</span>
+      </section>
+      <section class="admin-table-wrap">
+        <table class="admin-table">
+          <thead id="admin-table-head"></thead>
+          <tbody id="admin-table-body"></tbody>
+        </table>
+        <div id="admin-empty" class="admin-empty hidden"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="node-dialog" class="dialog">
+    <form id="node-form" method="dialog">
+      <div class="dialog-header">
+        <div><div class="eyebrow" id="node-dialog-eyebrow">CAPTURE A BREADCRUMB</div><h2 id="node-dialog-title">Add to the graph</h2></div>
+        <button type="button" class="icon-button close-dialog" aria-label="Close">×</button>
+      </div>
+      <div class="form-grid">
+        <label class="span-2"><span>What did you encounter? *</span><input name="title" required placeholder="e.g. Dishwasher odor" /></label>
+        <label><span>Type *</span><select name="type" id="form-type"></select></label>
+        <label><span>Exploration *</span><select name="depth" id="form-depth"></select></label>
+        <label id="need-framing-field" class="type-specific-field"><span>Need framing</span><select name="needFraming"><option value="problem">Problem</option><option value="desired-outcome">Desired outcome</option><option value="job">Job to be done</option><option value="opportunity-hypothesis">Opportunity hypothesis</option></select></label>
+        <div id="approach-fields" class="type-specific-fields span-2 hidden">
+          <label><span>Approach kind</span><select name="approachKind"><option value="product">Product</option><option value="feature">Feature</option><option value="technology">Technology</option><option value="platform">Platform</option><option value="process">Process</option><option value="service">Service</option><option value="workaround">User workaround</option><option value="other">Other</option><option value="unknown">Unknown / not captured</option></select></label>
+          <label><span>Maturity</span><select name="approachMaturity"><option value="conceptual">Conceptual</option><option value="prototyped">Prototyped</option><option value="validated">Validated</option><option value="launched">Launched</option><option value="retired">Retired</option><option value="unknown">Unknown / not captured</option></select></label>
+          <label><span>Origin</span><select name="approachOrigin"><option value="firstbuild">FirstBuild</option><option value="gea">GE Appliances</option><option value="external">External / competitive</option><option value="user-workaround">User workaround</option><option value="unknown">Unknown</option></select></label>
+        </div>
+        <label id="evidence-kind-field" class="type-specific-field hidden"><span>Evidence kind</span><select name="evidenceKind"><option value="observation">Observation</option><option value="research-finding">Research finding</option><option value="test-result">Test result</option><option value="technical-finding">Technical finding</option><option value="market-data">Market data</option><option value="synthesized-insight">Synthesized insight</option></select></label>
+        <label><span>Status</span><select name="status" id="form-status"></select></label>
+        <label><span>Activity</span><div class="inline-fields"><input name="start" placeholder="2024" /><input name="end" placeholder="ongoing" /></div></label>
+        <label class="span-2"><span>Contributors</span><input name="contributors" placeholder="Names separated by commas" /></label>
+        <label><span>Strategic context</span><select name="strategicContext"><option value="unknown">Unknown / not captured</option><option value="gea-core">GEA Core</option><option value="gea-internal">GEA Internal</option><option value="gea-adjacent">GEA Adjacent</option><option value="external">External</option></select></label>
+        <fieldset class="span-2 domain-fieldset"><legend>Domains</legend><p class="field-help">Classify this node into one or more stable product/application domains. Domain membership is taxonomy, not a graph edge.</p><div id="form-domains" class="domain-checkboxes"></div></fieldset>
+        <label class="span-2"><span>Short summary</span><textarea name="summary" rows="3" placeholder="What is this need, approach, or evidence?"></textarea></label>
+        <label class="span-2 advanced-field"><span>Conclusion / context</span><textarea name="conclusion" rows="2" placeholder="What historical context is worth preserving?"></textarea></label>
+        <label class="span-2 advanced-field"><span>Revisit if…</span><input name="revisit" placeholder="What condition could make this worth reopening?" /></label>
+        <label class="span-2 advanced-field"><span>Aliases / archive titles</span><input name="aliases" placeholder="Earlier title, project nickname" /></label>
+        <label class="span-2 advanced-field"><span>Tags</span><input name="tags" placeholder="laundry, odor, cleaning" /></label>
+        <label class="advanced-field"><span>Artifact title</span><input name="artifactTitle" placeholder="Research folder" /></label>
+        <label class="advanced-field"><span>Artifact URL</span><input name="artifactUrl" type="url" placeholder="https://…" /></label>
+      </div>
+      <input type="hidden" name="id" />
+      <div class="dialog-footer">
+        <button type="button" id="toggle-advanced" class="button button-quiet">More detail</button>
+        <div class="spacer"></div>
+        <button type="button" class="button button-quiet close-dialog">Cancel</button>
+        <button type="submit" class="button button-primary">Save node</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="relationship-dialog" class="dialog small-dialog">
+    <form id="relationship-form" method="dialog">
+      <input type="hidden" name="id" />
+      <div class="dialog-header">
+        <div><div class="eyebrow">PRACTICAL RELEVANCE</div><h2 id="relationship-dialog-title">Add known relationship</h2></div>
+        <button type="button" class="icon-button close-relationship" aria-label="Close">×</button>
+      </div>
+      <div class="form-grid single">
+        <label><span>From *</span><select name="source" id="rel-source" required></select></label>
+        <label><span>To *</span><select name="target" id="rel-target" required></select></label>
+        <label><span>Short relationship label *</span><input name="label" required maxlength="64" placeholder="e.g. shared capture mechanism" /></label>
+        <label><span>Why is this practically relevant?</span><textarea name="rationale" rows="3" placeholder="A sentence explaining why understanding one may help when considering the other."></textarea></label>
+        <label><span>Relevance strength</span><select name="strength"><option value="5">Strong</option><option value="3">Moderate</option><option value="1">Weak</option></select></label>
+      </div>
+      <div class="dialog-footer">
+        <div class="spacer"></div>
+        <button type="button" class="button button-quiet close-relationship">Cancel</button>
+        <button type="submit" class="button button-primary">Add relationship</button>
+      </div>
+    </form>
+  </dialog>
+
+
+  <dialog id="admin-login-dialog" class="dialog small-dialog">
+    <form id="admin-login-form" method="dialog">
+      <div class="dialog-header">
+        <div><div class="eyebrow">GRAPH ADMINISTRATION</div><h2>Enter Graph Admin</h2></div>
+        <button type="button" class="icon-button close-admin-login" aria-label="Close">×</button>
+      </div>
+      <div class="form-grid single">
+        <label><span>Password</span><input name="password" type="password" autocomplete="current-password" required /></label>
+        <p id="admin-login-note" class="login-note">Enter the Graph Admin password to start an editing session. The password is verified once by the server and is not stored in browser storage.</p>
+      </div>
+      <div class="dialog-footer">
+        <div class="spacer"></div>
+        <button type="button" class="button button-quiet close-admin-login">Cancel</button>
+        <button type="submit" class="button button-primary">Enter Graph Admin</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="domain-dialog" class="dialog small-dialog">
+    <form id="domain-form" method="dialog">
+      <input type="hidden" name="id" />
+      <div class="dialog-header">
+        <div><div class="eyebrow">CANONICAL TAXONOMY</div><h2 id="domain-dialog-title">Add domain</h2></div>
+        <button type="button" class="icon-button close-domain" aria-label="Close">×</button>
+      </div>
+      <div class="form-grid single">
+        <label><span>Domain title *</span><input name="title" required placeholder="e.g. Cooking" /></label>
+        <label><span>Description</span><textarea name="description" rows="3" placeholder="Stable product/application territory covered by this domain."></textarea></label>
+        <label><span>Examples</span><input name="examples" placeholder="ranges, cooktops, wall ovens" /></label>
+      </div>
+      <div class="dialog-footer">
+        <div class="spacer"></div>
+        <button type="button" class="button button-quiet close-domain">Cancel</button>
+        <button type="submit" class="button button-primary">Save domain</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
